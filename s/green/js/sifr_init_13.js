@@ -1,0 +1,2 @@
+
+if(typeof sIFR=="function"){var sifrElements=document.getElementsByTagName("h2");for(var i=0;i<sifrElements.length;i++){var currentElement=document.getElementById(sifrElements[i].id);if(currentElement!=null){if(currentElement.id.indexOf("sifr")>-1){var elementId="#"+currentElement.id;var flashFileURL=sifrPath;sIFR.replaceElement(named({sSelector:elementId,sFlashSrc:flashFileURL,sWmode:"opaque",sColor:"#444433",sLinkColor:"#1144DD",sBgColor:"#FFFFFF",sHoverColor:"#1144DD",nPaddingTop:0,nPaddingBottom:0,sFlashVars:"textalign=left&offsetTop=0&offsetBottom=0"}));}}}};

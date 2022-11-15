@@ -1,0 +1,4 @@
+/* Korean */
+body {
+    font-family: nokia-pure-text, Gulim, arial;
+}

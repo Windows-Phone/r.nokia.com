@@ -1,0 +1,7 @@
+body {
+	font-size:95%;
+}
+
+.nk-support-page-header {
+	padding-top: 3px; /* The tone cannot been seen, need to added padding-top or increase line-height to solve the problem */
+}

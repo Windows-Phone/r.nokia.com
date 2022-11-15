@@ -1,0 +1,32 @@
+/* Font Settings */
+@font-face {
+    font-family: "Nokia Pure Text";
+    src: url("../fonts/ru/nokiapuretext-webfont.eot?"); /* IE9 */
+    src: url("../fonts/ru/nokiapuretext-webfont.eot?v=2.2.5.15#iefix") format("eot"), /* IE6-IE8 */
+         url("../fonts/ru/nokiapuretext-webfont.ttf?v=2.2.5.15") format("truetype"), /* Mordern Browsers, Safari, Android, iOS */
+         url("../fonts/ru/nokiapuretext-webfont.svg?2.2.5.15#webfont4UxFerZxv=") format("svg"); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Nokia Pure Text Bold";
+    src: url("../fonts/ru/nokiapuretextbold-webfont.eot?"); /* IE9 */
+    src: url("../fonts/ru/nokiapuretextbold-webfont.eot?v=2.2.5.15#iefix") format("eot"), /* IE6-IE8 */
+         url("../fonts/ru/nokiapuretextbold-webfont.woff?v=2.2.5.15") format("woff"), /* Modern Browsers */
+         url("../fonts/ru/nokiapuretextbold-webfont.ttf?v=2.2.5.15") format("truetype"), /* Safari, Android, iOS */
+		 url("../fonts/ru/nokiapuretextbold-webfont.svg?2.2.5.15#NokiaPureTextBold") format("svg"); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Nokia Pure Text Light";
+    src: url("../fonts/ru/nokiapuretextlight-webfont.eot?"); /* IE9 */
+    src: url("../fonts/ru/nokiapuretextlight-webfont.eot?v=2.2.5.15#iefix") format("eot"), /* IE6-IE8 */
+         url("../fonts/ru/nokiapuretextlight-webfont.woff?v=2.2.5.15") format("woff"), /* Modern Browsers */
+         url("../fonts/ru/nokiapuretextlight-webfont.ttf?v=2.2.5.15") format("truetype"); /* Safari, Android, iOS */
+		 url("../fonts/ru/nokiapuretextlight-webfont.svg?2.2.5.15#NokiaPureTextLight") format("svg"); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}

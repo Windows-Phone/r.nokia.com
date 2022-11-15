@@ -1,0 +1,37 @@
+﻿/* Font Settings */
+@font-face {
+    font-family: "Nokia Pure Text";
+    src: url("../fonts/EU/nokiapuretext-webfont.eot?"); /* IE9 */
+    src: url("../fonts/EU/nokiapuretext-webfont.eot?v=4.2.6#iefix") format("eot"), /* IE6-IE8 */
+         url("../fonts/EU/nokiapuretext-webfont.woff?v=4.2.6") format("truetype"), /* Mordern browsers */
+         url("../fonts/EU/nokiapuretext-webfont.ttf?v=4.2.6") format("truetype"), /* Safari, Android, iOS */
+         url("../fonts/EU/nokiapuretext-webfont.svg?4.2.6#webfont4UxFerZxv=") format("svg"); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Nokia Pure Text";
+    src: url("../fonts/EU/nokiapuretextbold-webfont.eot?"); /* IE9 */
+    src: url("../fonts/EU/nokiapuretextbold-webfont.eot?v=4.2.6#iefix") format("eot"), /* IE6-IE8 */
+    	 url("../fonts/EU/nokiapuretextbold-webfont.woff?v=4.2.6") format("truetype"), /* Mordern browsers */
+         url("../fonts/EU/nokiapuretextbold-webfont.ttf?v=4.2.6") format("truetype"), /* Safari, Android, iOS */
+		 url("../fonts/EU/nokiapuretextbold-webfont.svg?4.2.6#NokiaPureTextBold") format("svg"); /* Legacy iOS */
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Nokia Pure Text";
+    src: url("../fonts/EU/nokiapuretextlight-webfont.eot?"); /* IE9 */
+    src: url("../fonts/EU/nokiapuretextlight-webfont.eot?v=4.2.6#iefix") format("eot"), /* IE6-IE8 */
+    	 url("../fonts/EU/nokiapuretextlight-webfont.woff?v=4.2.6") format("truetype"), /* Mordern browsers */
+         url("../fonts/EU/nokiapuretextlight-webfont.ttf?v=4.2.6") format("truetype"), /* Safari, Android, iOS */
+		 url("../fonts/EU/nokiapuretextlight-webfont.svg?4.2.6#NokiaPureTextLight") format("svg"); /* Legacy iOS */
+    font-weight: 200;
+    font-style: normal;
+}
+
+body {
+	font-family:Nokia Pure Text, Arial, 微软雅黑, SimHei, sans-serif;
+}

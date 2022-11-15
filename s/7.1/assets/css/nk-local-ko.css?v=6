@@ -1,0 +1,4 @@
+/* Local css style for Korean */
+body {
+	font-size:83%;
+}

@@ -1,0 +1,317 @@
+* {margin:0;padding:0;}
+body {font-family:arial,helvetica,sans-serif;font-size:12px;line-height:14px;color:#443;text-align:center;background-color:#fff;}
+.pagecontainer {text-align:left;position:relative;width:780px;margin-left:auto;margin-right:auto;padding-left:6px;}
+div.navcont {padding-top:13px!important;margin-bottom:16px!important;}
+div#relative_container {position:relative;width:780px;float:left;}
+div#layout_B2_left,div#layout_B2_content {float:left;overflow:hidden;min-height:1px;}
+div#layout_B2_left {width:552px;}
+div#layout_B2_content {width:222px;}
+div#layout_B1_left,#layout_B1_content,#layout_B1_right {float:left;overflow:hidden;min-height:1px;}
+div#layout_B1_content {width:330px;}
+div#layout_B1_right {width:222px;}
+div#layout_B1_left {width:222px;}
+div#layout_B_left,div#layout_B_content {float:left;overflow:hidden;min-height:1px;}
+div#layout_B_left {width:222px;}
+div#layout_B_content {width:552px;}
+div#layout_B3_left,div#layout_B3_right,div#layout_B3_top,div#layout_B3_bottom_left,div#layout_B3_bottom_right {float:left;overflow:hidden;min-height:1px;}
+div#layout_B3_left {width:552px;}
+div#layout_B3_right {width:222px;}
+div#layout_B3_top {width:552px;}
+div#layout_B3_bottom_left {width:222px;}
+div#layout_B3_bottom_right {width:330px;}
+a {text-decoration:none;color:#14D;}
+a:hover {text-decoration:underline;}
+a:visited {color:#14D;}
+p {font-size:12px;position:relative;}
+div {font-size:12px;}
+sup {line-height:11px;vertical-align:middle;display:inline-block;padding-bottom:6px;}
+hr {width:100%;height:1px;margin-top:12px;padding:0;background-color:#AA9;border:0;}
+hr.default_line {width:100%;height:1px;margin:6px 0 6px 0;padding:0;background-color:#AA9;border:0;}
+h4,.largebodybold {font-weight:bold;font-size:12px;}
+h4.largebodybold {margin:0;}
+.promo_tsr_hdr {width:100%;}
+h3 {font-size:14px;font-weight:bold;}
+input.standard {border:1px solid #443;font-size:12px;}
+select,textarea {border:1px solid #443;font-size:12px;}
+ol {padding-left:3em;margin:1em 0 1em 0;}
+.flexContainer {float:left;position:relative;display:block;}
+.legend {color:#665;font-size:11px!important;position:relative;}
+.standard_list {list-style-type:none;list-style-position:outside;position:relative;display:inline-block;}
+.standard_list li {background:url(http://r.nokia.com/s/green/pics/bullet_default_1.gif) no-repeat 0 2px;padding-left:15px;display:list-item;font-size:12px;position:relative;}
+.tsr_body img,.tsr_body_child img {float:left;margin:2px 7px 7px 0;display:block;}
+.bottom_grey_border {border-bottom:1px solid #AA9;height:1%;}
+.top_grey_border {border-top:1px solid #AA9;height:1%;float:left;width:inherit;position:relative;width:100%;}
+.largebody {font-size:12px;}
+.greentext {font-style:normal;color:#6C3;}
+.standard_navi {width:198px;border-left:6px solid #fff;position:relative;background:#fff;}
+.standardnavi_container {width:100%;float:left;}
+.standardnavi_hdr_container {width:100%;float:left;}
+.header_image_tsr {margin-bottom:4px;border:0;}
+.left_marginal_add {margin-left:12px;}
+.promotional_image_ed {display:block;float:left;border-left:6px solid #fff;border-right:12px solid #fff;}
+.promotional_image_ed img {border:0;float:left;clear:both;}
+.tsr_img_normal,.tsr_img_medium,.tsr_img_large,.tsr_img_xlarge,.tsr_img_ularge,.tsr_img_uxlarge {border:0;}
+.tsr_large {width:552px;overflow:hidden;}
+.tsr_mid_large {width:516px;overflow:hidden;}
+.tsr_mid {width:390px;overflow:hidden;}
+.tsr_medium_large {width:330px;overflow:hidden;}
+.tsr_medium {width:276px;overflow:hidden;}
+.tsr_small {width:258px;overflow:hidden;}
+.tsr_extra_small {width:222px;overflow:hidden;}
+.tsr_container_extra_small {width:192px;margin-left:12px;position:relative;}
+.tsr_container_small {width:228px;margin-left:12px;position:relative;}
+.tsr_container_medium {width:246px;margin-left:12px;position:relative;}
+.tsr_container_medium_large {width:300px;margin-left:12px;position:relative;}
+.tsr_container_mid {width:354px;margin-left:12px;position:relative;}
+.tsr_container_mid_large {width:486px;margin-left:12px;position:relative;}
+.tsr_container_large {width:522px;margin-left:12px;position:relative;}
+.tsr_container_medium a {position:relative;}
+.header_large {width:552px;overflow:hidden;}
+.header_container_large {width:534px;margin-left:6px;position:relative;}
+.mp_extra_large {width:768px;overflow:hidden;float:left;position:relative;}
+.mp_large {width:552px;overflow:hidden;float:left;position:relative;}
+.mp_medium_large {width:516px;overflow:hidden;float:left;position:relative;}
+.mp_medium {width:330px;overflow:hidden;float:left;position:relative;}
+.mp_small_medium {width:258px;overflow:hidden;float:left;position:relative;}
+.mp_small {width:246px;overflow:hidden;float:left;position:relative;}
+.mp_extra_small {width:222px;overflow:hidden;float:left;position:relative;}
+.mp_minimal {width:114px;overflow:hidden;float:left;position:relative;}
+.mp_container_extra_large {width:756px;margin-left:6px;position:relative;}
+.mp_container_large {width:534px;margin-left:6px;position:relative;}
+.mp_container_medium_large {width:498px;margin-left:6px;position:relative;}
+.mp_container_medium {width:312px;margin-left:6px;position:relative;}
+.mp_container_small_medium {width:240px;margin-left:6px;position:relative;}
+.mp_container_small {width:228px;margin-left:6px;position:relative;}
+.mp_container_extra_small {width:204px;margin-left:6px;position:relative;}
+.mp_container_minimal {width:96px;margin-left:6px;position:relative;}
+.bgimage_extra_small {background:url(http://r.nokia.com/s/green/pics/shadow_extra_small_1.gif) no-repeat top left;}
+.bgimage_small {background:url(http://r.nokia.com/s/green/pics/shadow_small_1.gif) no-repeat top left;}
+.bgimage_bottom {background:url(http://r.nokia.com/s/green/pics/shadow_small_bottom_1.gif) no-repeat bottom left;}
+.bgimage_medium {background:url(http://r.nokia.com/s/green/pics/shadow_medium_1.gif) no-repeat top left;}
+.bg_middle {background:url(http://r.nokia.com/s/green/pics/shadow_mid_large_1.gif) no-repeat top left;}
+.bgimage_large {background:url(http://r.nokia.com/s/green/pics/shadow_large_1.gif) no-repeat top left;}
+.bg_general,.bg_middle,.bgimage_small,.bgimage_large,.bgimage_medium,.bgimage_extra_small {position:relative;float:left;border-bottom:12px solid #fff;}
+.bg_compare_add {position:relative;float:left;border-bottom:4px solid #fff;}
+.bg_nobottom {position:relative;float:left;border-bottom:1px solid #fff;border-right:6px solid #fff;}
+.extra_padding {padding-top:15px;overflow:hidden;}
+.extra_top_padding {padding-top:6px;}
+.extra_bottom_padding {padding-bottom:15px;overflow:hidden;}
+.extra_top_margin {margin-top:3px;}
+.tsr_image_wrapper {position:relative;margin-bottom:10px;float:left;}
+.tsr_image_wrapper img {border:0;}
+.tsr_img_wrapper_nomargin {position:relative;}
+.tsr_img_wrapper_nomargin img {border:0;}
+.tsr_btn_bottom_container {position:absolute;bottom:6px;left:6px;}
+.tsr_btn_top_container {position:absolute;top:40px;left:6px;}
+a.tsr_btn_link {display:block;padding-left:6px;float:left;height:19px;text-decoration:none!important;background:url(http://r.nokia.com/s/green/pics/left_bar_1.gif) no-repeat;}
+a.tsr_btn_link_a {padding-left:6px;float:left;height:19px;text-decoration:none!important;background:url(http://r.nokia.com/s/green/pics/left_on_portal_1.gif) no-repeat;}
+.tsr_btn_middle {display:block;float:left;padding:2px 6px 3px 0;text-decoration:none!important;font-style:normal;color:#fff;background:url(http://r.nokia.com/s/green/pics/right_bar_2.gif) no-repeat 100% 0;}
+.tsr_btn_middle_a {float:left;padding:2px 6px 3px 0;text-decoration:none!important;font-style:normal;color:#fff;background:url(http://r.nokia.com/s/green/pics/right_on_grn_2.gif) no-repeat 100% 0;}
+a.tsr_btn_link:hover {cursor:pointer;cursor:hand;background:url(http://r.nokia.com/s/green/pics/left_on_portal_1.gif) no-repeat;}
+a.tsr_btn_link:hover .tsr_btn_middle {background:url(http://r.nokia.com/s/green/pics/right_on_grn_2.gif) no-repeat 100% 0;}
+.local_navi {width:192px;clear:both;list-style-type:none;list-style-position:outside;padding-top:5px;position:relative;}
+.local_navi li{height:1%;padding:2px 0 2px 13px;display:inline-block;background-position:1px 5px;font-weight:normal;width:179px;}
+.local_navi ul.navi_4th_lvl {}
+.local_navi ul.navi_4th_lvl li.navi_4th_lvl_item {width:166px;}
+.navi_3rd_lvl,.navi_4th_lvl,.navi_5th_lvl {width:100%;list-style-type:none;list-style-position:outside;font-size:12px;}
+.navi_3rd_lvl {border-bottom:1px solid #AA9;}
+.navi_4th_lvl {padding-top:3px;}
+.navi_static_pointer {color:#444433;background:url(http://r.nokia.com/s/green/pics/arrow_Breadcrumb_1.gif) no-repeat 5px 0;}
+.navi_static_pointer_b {color:#444433;background:url(http://r.nokia.com/s/green/pics/arrow_Breadcrumb_1.gif) no-repeat 1px 6px!important;}
+.navi_3rd_lvl_item {height:1%;padding:7px 0 4px 15px;border-top:1px solid #AA9;background-position:1px 11px;font-weight:bold;}
+.navi_3rd_lvl_item_b {height:1%;padding:5px 0 6px 0;border-top:1px solid #AA9;background-position:1px 11px;font-weight:bold;}
+.navi_4th_lvl_item {height:1%;padding:3px 0 2px 15px;display:block;background-position:1px 7px;font-weight:normal;}
+.navi_5th_lvl_item {height:1%;padding:3px 0 2px 15px;background-position:1px 7px;font-weight:normal;}
+.tsr_body {display:block;margin-top:4px;text-indent:0px;position:relative;float:left;overflow:hidden;width:inherit;}
+.tsr_body p {margin-bottom:12px;}
+.tsr_body_child {display:none;margin-top:0;text-indent:0;position:relative;background:#fff;}
+.tsr_body_control_open a,.tsr_body_control_open_child a {height:1%;background:url(http://r.nokia.com/s/green/pics/2_blue_1.gif) no-repeat 1px 2px;padding-left:15px;color:#14D;}
+.tsr_body_control_close a,.tsr_body_control_close_child a {height:1%;background:url(http://r.nokia.com/s/green/pics/1_blue_1.gif) no-repeat 1px 2px;padding-left:15px;color:#14D;}
+.tsr_body_control_up_child a {height:1%;background:url(http://r.nokia.com/s/green/pics/3_blue_1.gif) no-repeat 1px 2px;padding-left:15px;color:#14D;}
+.tsr_body_control_up_child,.tsr_body_control_open,.tsr_body_control_close,.tsr_body_control_open_child,.tsr_body_control_close_child {height:14px;padding-top:2px;overflow:hidden;}
+.tsr_body_control_up_child img,.tsr_body_control_open img,.tsr_body_control_close img,.tsr_body_control_close_child img,.tsr_body_control_open_child img {margin:3px 1px 0 0;padding-left:2px;}
+.tsr_body_control_up_child a:hover,.tsr_body_control_open a:hover,.tsr_body_control_close a:hover,.tsr_body_control_close_child a:hover,.tsr_body_control_open_child a:hover {text-decoration:none;}
+.tsr_body_control_close_child,.tsr_body_control_open,.tsr_body_control_up_child {display:none;}
+.tsr_body_control_open_child,.tsr_body_control_close {display:block;}
+.tsr_search_form select {width:140px;}
+.tsr_greenheader_container,.tsr_greenheader_center {height:18px;display:block;padding-left:3px;}
+.tsr_greenheader_container {margin-bottom:12px;background:url(http://r.nokia.com/s/green/pics/greenh3_left_1.gif) no-repeat top left;}
+.tsr_greenheader_center {overflow:hidden;color:#fff;font-weight:bold;line-height:16px;background:url(http://r.nokia.com/s/green/pics/greenh3_right_2.gif) no-repeat top right;}
+.tsr_search_form {padding-left:6px;}
+.tsr_search_form p {margin:6px 0 6px 0;}
+.tsr_search_form img {float:right;margin:0 0 7px 7px;}
+.compare_button_remove a {height:1%;background:url(http://r.nokia.com/s/green/pics/minus_grn_portal_1.gif) center left no-repeat;padding-left:13px;color:#6C3;position:relative;}
+.compare_button_add a {height:1%;background:url(http://r.nokia.com/s/green/pics/plus_grn_portal_1.gif) center left no-repeat;padding-left:13px;color:#6C3;position:relative;}
+.compare_button_add {display:block;}
+.compare_button_remove {display:none;}
+.compare_button_add a:hover,.compare_button_remove a:hover {text-decoration:none;}
+.benefit_header {font-weight:bold;font-size:12px;margin-bottom:2px;clear:left;}
+div.productPopupOpen {position:absolute;display:block;width:278px;height:192px;background:#fff;border:1px solid #ccc;}
+div.productPopupHide {top:0px;left:0px;position:absolute;display:none;}
+.middleCC {position:relative;width:278px;height:144px;}
+.imageContainer {position:relative;padding-left:24px;width:109px;float:left;}
+.imageContainer img {width:109px;height:144px;border:0;}
+.textContainer {position:relative;width:115px;float:left;margin-left:6px;}
+.popupHeader {font-weight:bold;padding-bottom:6px;margin-bottom:6px;border-bottom:1px solid #ccc;width:100%;}
+.topRight,.topLeft,.bottomRight,.bottomLeft {position:relative;width:24px;height:24px;background:#fff;}
+.topRight {float:right;}
+.topLeft {float:left;}
+.bottomRight {float:right;}
+.bottomLeft {float:left;}
+.navi_pusher {height:50px;width:50px;float:left;display:block;position:relative;}
+.clearleft {clear:left;}
+table.powermanagement {margin:0 0 4px 10px;background:#fff;border-collapse:collapse;text-align:left;}
+table.powermanagement th {padding:3px 25px 3px 3px;}
+table.powermanagement td {padding:3px 25px 1px 3px;border-bottom:1px solid #e5e5e5;font-size:11px;}
+table.powermanagement .odd {background:#e5e5e5;}
+.notwrap{white-space:nowrap;}
+#expand_button_container {padding:5px 0;}
+.expand_button_expandall a {height:1%;background:url(http://r.nokia.com/s/green/pics/1_grn_1.gif) center left no-repeat;padding:0 10px 0 13px;color:#6C3;position:relative;}
+.expand_button_collapseall a {height:1%;background:url(http://r.nokia.com/s/green/pics/3_grn_1.gif) center left no-repeat;padding:0 10px 0 13px;color:#6C3;position:relative;}
+.expand_button_expandall a:hover,.expand_button_collapseall a:hover {text-decoration:none;}
+.noclear {clear:none!important;width:auto!important;}
+.applicationContainer{width:522px;}
+.languageSelection{margin:12px 0 24px 0;}
+.languageSelection select{font-size:11px;width:250px;height:18px;margin:12px 6px 0 0;}
+.filePresentation{width:522px;margin-top:36px;}
+.downloadButton{width:150px;float:right;}
+.downloadButton img{border:0;width:40px;height:12px;margin-right:6px;}
+.fileDetails{font-size:11px;}
+.fileDescription{margin-top:12px;clear:right;font-size:11px;}
+.fileDescription ul,.fileDescription ol{margin-left:24px;margin-top:12px;margin-bottom:12px;}
+.fileDescription ul{list-style-type:disc;}@media screen {.sIFR-flash {visibility:visible!important;margin:0;}
+.sIFR-replaced {visibility:visible!important;}
+span.sIFR-alternate {position:absolute;left:0;top:0;width:0;height:0;display:block;overflow:hidden;}
+.sIFR-hasFlash h2.sifr {visibility:hidden;letter-spacing:0;font-size:18px!important;height:21px;margin:-3px 0 4px-1px;overflow:hidden;border-right:1px solid #fff;}
+.sIFR-alternate {font-weight:normal;position:relative;float:left;display:none;line-height:20px;}
+.sIFR-flash {position:relative;float:left;}}@media print {.sIFR-flash,.sIFR-flash object,.sIFR-flash embed {display:none!important;height:0;width:0;position:absolute;overflow:hidden;}
+span.sIFR-alternate {visibility:visible!important;display:block!important;position:static!important;left:auto!important;top:auto!important;}}
+h2.sifr {float:left;display:block;width:100%;height:18px;font-size:17px;overflow:hidden;line-height:17px;margin-bottom:4px;}
+.r50_topnavi_container {float:left;position:relative;padding-left:6px;width:756px;display:block;margin-bottom:16px!important;}
+.r50_1st_lvl {overflow:hidden;width:756px;list-style-type:none;list-style-position:outside;margin:0;padding:0;background:url(http://r.nokia.com/s/green/pics/navtop_last_1.gif) no-repeat top right;height:27px;}
+.r50_1st_lvl * {display:block;float:left;height:27px;line-height:27px;color:#fff;text-decoration:none;}
+.r50_1st_lvl li {padding-left:7px;background:url(http://r.nokia.com/s/green/pics/gr_level_one_left_1.gif) no-repeat top left;}
+.r50_1st_lvl li a {font-size:12px;color:#FFF!important;padding-right:7px;background:url(http://r.nokia.com/s/green/pics/gr_level_one_right_1.gif) no-repeat top right;}
+.r50_1st_lvl li.r50_active {padding-left:7px;background:url(http://r.nokia.com/s/green/pics/gr_level_one_a_left_1.gif) no-repeat top left;}
+.r50_1st_lvl li.r50_active a {font-size:12px;color:#005500!important;padding-right:7px;background:url(http://r.nokia.com/s/green/pics/gr_level_one_a_right_1.gif) no-repeat top right;}
+.r50_2nd_lvl {overflow:hidden;width:756px;list-style-type:none;list-style-position:outside;margin:0;padding:0;background:url(http://r.nokia.com/s/green/pics/gr_level_two_navtop_last_1.gif) no-repeat top right;height:27px;}
+.r50_2nd_lvl li {display:block;height:27px;float:left;padding-left:7px;background:url(http://r.nokia.com/s/green/pics/gr_level_two_left_1.gif) no-repeat top left;}
+.r50_2nd_lvl li a {font-size:12px;display:block;line-height:27px;text-decoration:none;height:27px;float:left;color:#FFF!important;padding-right:7px;background:url(http://r.nokia.com/s/green/pics/gr_level_two_right_1.gif) no-repeat top right;}
+.r50_2nd_lvl li.r50_active {display:block;height:27px;float:left;background:url(http://r.nokia.com/s/green/pics/gr_level_two_left_1.gif) no-repeat top left;padding-left:7px;}
+.r50_2nd_lvl li.r50_active a {font-size:12px;display:block;line-height:27px;text-decoration:none;height:27px;float:left;color:#005500!important;padding-right:7px;background:url(http://r.nokia.com/s/green/pics/gr_level_two_right_1.gif) no-repeat top right;}
+.r50_1st_lvl li a:hover {color:#7AEE54!important;text-decoration:none!important;}
+.r50_1st_lvl li.r50_active a:hover {color:#005500!important;text-decoration:none!important;}
+.r50_2nd_lvl li a:hover,.r50_2nd_lvl li.r50_active a:hover {color:#7AEE54!important;text-decoration:none!important;}
+.r50_first {background-image:none!important;}
+.r50_navifirst {background:url(http://r.nokia.com/s/green/pics/gr_level_one_a_right_1.gif) no-repeat top right!important;}
+#footer {clear:both;width:744px;padding:0;margin-bottom:22px;border-top:78px solid #fff;border-left:12px solid #fff;text-align:left;}
+#footer p {clear:both;color:#665;border-top:1px solid #CCB;padding-top:6px;margin:0;font-size:11px;}
+#footer div {clear:both;color:#665;border-top:1px solid #CCB;padding-top:6px;margin:0;font-size:11px;}
+#footer ul {height:24px;clear:both;list-style-type:none;list-style-position:outside;border:none;border-top:1px solid #CCCCBB;padding:0;margin:0;}
+#footer ul li {font-size:12px;height:24px;float:left;padding:0;margin:0;}
+#footer ul li a {height:12px;display:block;float:left;background:url(http://r.nokia.com/s/green/pics/bullet_portal_1.gif) no-repeat 0 8px;padding:6px 5px 0 15px;font-size:11px;text-decoration:none;color:#14D;}
+#footer ul li a:hover {text-decoration:underline;}
+div#header {height:84px;width:756px!important;padding:0!important;margin-right:12px!important;border-left:6px solid #fff;float:left;}
+.logo_nokia {padding-left:6px;margin-top:30px;margin-bottom:13px;float:left;border:0;}
+li.right {float:right!important;}
+.lastitem {padding-right:36px;}
+.firstitem {background:url(http://r.nokia.com/s/green/pics/rtl_level_one_right_1.gif) no-repeat top right!important;width:8px;}
+.firstitem_2nd {width:8px;background:url(http://r.nokia.com/s/green/pics/gr_level_two_right_1.gif) no-repeat top right!important;}
+.lastitem_2nd {background:url(http://r.nokia.com/s/green/pics/gr_level_two_right_1.gif) no-repeat top left!important;}
+.mostrightitem_2nd {background:url(http://r.nokia.com/s/green/pics/gr_level_two_navtop_last_1.gif) no-repeat top right!important;}
+.mynokia_breadcrumb {float:right;list-style-type:none;list-style-position:outside;margin-top:4px;}
+.mynokia_breadcrumb li {float:left;display:block;background:url(http://r.nokia.com/s/green/pics/breadcrumb_icon_1.gif) no-repeat 0px 3px;padding-left:11px;font-size:11px;color:#665;}
+.mynokia_breadcrumb li a {padding-right:3px;}
+.first {background-image:none!important;}
+.nokia_breadcrumb {float:right;list-style-type:none;list-style-position:outside;margin-top:2px;}
+.nokia_breadcrumb li {float:left;display:block;background:url(http://r.nokia.com/s/green/pics/breadcrumb_icon_1.gif) no-repeat 0px 3px;padding-left:11px;font-size:11px;color:#665;}
+.nokia_breadcrumb li a {padding-right:3px;}
+.search_go_button {vertical-align:top;margin-top:12px;}
+.search_textfield {margin-top:12px;vertical-align:top;width:95px;}
+.search_icon {margin-top:6px;margin-right:8px;border:0;}
+.search_sitetext {position:relative;display:block;font-size:11px;line-height:11px;margin-top:0px;color:#44AA11!important;}
+.breadcrumb_container {float:right;position:relative;height:30px;display:block;width:630px;line-height:13px;margin-right:-3px;overflow:hidden;}
+.login_text {float:right;font-size:11px;color:#665;padding-right:3px;}
+.r50_searchcontainer {float:right;}
+.r50_searchform {float:right;width:630px;height:54px;border:0;padding:0;margin:0;display:block;}
+.r50_languagecontainer {float:right;overflow:hidden;display:block;width:350px;height:54px;}
+#expand_button_container {width:522px;}
+.left {float:left;}
+.fullwidth {width:100%;}
+.myNokia_extraSmall {width:222px;overflow:hidden;}
+.myNokia_small {width:276px;overflow:hidden;}
+.myNokia_medium {width:330px;overflow:hidden;}
+.myNokia_large {width:552px;overflow:hidden;}
+.tsr_body{clear:both;width:100%;}
+.top_grey_border{clear:both;}
+.legend{clear:both;}
+#accPhoneFound {display:none;}
+#accDefault {display:block;}
+.support_tsr_bodycontent {display:block;margin-bottom:6px;}
+.support_header_image {float:left;padding-right:6px;}
+.support_header_header {width:390px;float:left;margin-top:14px;height:26px;overflow:hidden;}
+.support_header_linklist {float:right;margin-top:10px;width:300px;list-style-type:none;list-style-position:outside;}
+.support_header_linklist li {float:right;width:100%;}
+.support_header_linklist li a {float:right;background:url(http://r.nokia.com/s/green/pics/arrow_Breadcrumb_1.gif) no-repeat 0 4px;padding-left:8px;font-size:11px;}
+.support_linkedpanel_bodytxt {float:left;position:relative;}
+.support_tabs_container {position:relative;float:left;width:756px;height:27px;display:block;margin-bottom:11px;}
+.support_pagetabs {width:756px;list-style-type:none;list-style-position:outside;margin-bottom:11px;padding:0;background:url(http://r.nokia.com/s/green/pics/pagetab_bg2_1.gif) repeat-x top left;height:27px;}
+.support_pagetabs li {display:block;height:27px;float:left;padding-left:15px;background:url(http://r.nokia.com/s/green/pics/pagetabs_left2_1.gif) no-repeat top left;color:#4a1;margin:0;vertical-align:middle;}
+.support_pagetabs li a {display:block;height:27px;line-height:27px;text-decoration:none;float:left;padding-right:15px;background:url(http://r.nokia.com/s/green/pics/pagetabs_right2_1.gif) no-repeat top right;font-weight:bold;font-size:11px;}
+.support_pagetabs li a:hover {text-decoration:none;color:#4a1;}
+li.support_first_tab,li.support_first_tab#support_active_pagetab {background-image:none!important;padding-left:0;}
+li.support_first_tab,li.support_first_tab#support_active_pagetab a {padding-left:15px;}
+#support_tab_product_main {font-size:12px;font-weight:bold;line-height:64px;}
+#support_active_pagetab {background:url(http://r.nokia.com/s/green/pics/pagetabs_active2_1.gif) no-repeat bottom left;}
+#support_active_pagetab a {color:#4a1;background:url(http://r.nokia.com/s/green/pics/pagetabs_right_active2_1.gif) no-repeat bottom right;}
+.support_last_tab {background-image:none!important;}
+#accNaviThumbnail {display:none;}
+#accNaviPhoneURL {display:none;}
+.accessories_navi_top {clear:both;float:left;height:11px;width:204px;background:url(http://r.nokia.com/s/green/pics/gradient_grey-lightgrey_top_1.gif) no-repeat top left;}
+.accessories_navi_bg {clear:both;float:left;width:100%;padding-top:1px;background:url(http://r.nokia.com/s/green/pics/gradient_grey-lightgrey_204_1.gif) repeat-y top left;border-top:1px solid #AA9;}
+.no_top_border {border-top:0!important;}
+.accessories_navi_btm {clear:both;float:left;height:11px;width:204px;background:url(http://r.nokia.com/s/green/pics/gradient_grey-lightgrey_bottom_1.gif) no-repeat top left;}
+.accessories_navi_thumb {float:left;margin:0 10px 0 10px;width:60px;height:60px;border:1px solid #AA9;background:#FFF;}
+.accessories_navi_form {width:100%;float:left;display:none;padding-left:12px;}
+.accessories_navi_form select {margin:12px 0 12px 0;width:180px;position:relative;}
+.accessories_navi_ul_1st {list-style-type:none;list-style-position:outside;width:192px;margin:4px 0 4px 12px;padding:0;}
+.accessories_navi_ul_2nd {list-style-type:none;list-style-position:outside;width:168px;margin-left:0px;}
+.accessories_navi_ul_2nd li {margin:3px 0 0 0;padding-left:12px;}
+.accessories_navi_ul_2nd li.active {background:url(http://r.nokia.com/s/green/pics/arrow_Breadcrumb_trans_1.gif) no-repeat 1px 4px;}
+.accessories_navi_ul_3rd {list-style-type:none;list-style-position:outside;width:156px;}
+.accessories_criteria_container {margin:4px 0;}
+.accessories_criteria_container_header {margin-bottom:2px;}
+.accessories_criteria_container span {margin-left:12px;}
+.accessories_criteria_container_form {display:none;}
+.accessories_criteria_container_form select {margin-bottom:2px;}
+a.active_select,a.inactive_select {margin-left:12px;padding-left:12px;background:url(http://r.nokia.com/s/green/pics/bullet_default_1.gif) no-repeat 0 3px;}
+a.active_select {color:#443!important;text-decoration:none;}
+a.active_select:hover,a.inactive_select:hover {text-decoration:none;}
+.accessories_criteria_select span {}
+.accessories_criteria_container_form {display:block;border:0;padding:0;margin-bottom:6px;display:block;float:left;width:100%;}
+.accessories_criteria_selectbox {width:120px;float:right;}
+.accessories_criteria_container_body_text {float:left;}
+.accessories_printbutton {color:#44AA11!important;border-left:1px solid #AA9;margin-left:10px;padding-left:20px;background:url(http://r.nokia.com/s/green/pics/acc_print_1.gif) no-repeat 4px 0;}
+.accessories_criteria_select {float:right;margin-bottom:6px;clear:both;}
+.accessories_images_container {width:534px;padding:6px 0 0 0;overflow:hidden;}
+.accessories_images_container img {border:0;}
+.acc_list_item {width:534px;border-top:6px solid #fff;clear:both;margin-bottom:6px;}
+.acc_list_item img {float:left;width:150px;}
+.acc_list_item p {margin:12px 0;}
+.acc_list_item div {float:left;width:350px;margin-left:12px;margin-top:0;}
+.acc_icon_item {border-right:21px solid #fff;width:150px;float:left;margin:6px 0 6px 0;display:none;}
+.acc_icon_item img {width:150px;float:left;clear:both;margin-bottom:6px;}
+.acc_icon_item a {float:left;margin:0;height:42px;}
+.acc_icon_item p {display:none;}
+.acc_icon_item div {float:left;border:0;}
+.acc_icon_item ul {display:none;}
+#accCriteriaSelectBodyTextId {display:none;width:400px;}
+.accessories_phone_list {overflow:hidden;width:534px;border-top:1px solid #AA9;clear:both;}
+.accessories_compatibilty_itemholder {width:90px;height:132px;float:left;margin-top:8px;border-bottom:1px solid #AA9;margin-right:16px;}
+.accessories_compatibilty_itemholder img {width:90px;height:90px;border:0;float:left;}
+.accessories_compatibilty_itemholder a {margin-top:2px;display:block;float:left;}
+.languagelinks {height:20px;margin-top:20px;margin-right:35px;border-left:solid white 70px;}
+.languagelinks a {font-size:11px;color:#14d;}
+.languagelinks span.arabic {color:#665;font-size:12px;}
+.tsr_category {width:390px;overflow:hidden;}
+.tsr_container_category {width:354px;margin-left:12px;position:relative;}

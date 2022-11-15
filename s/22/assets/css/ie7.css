@@ -1,0 +1,526 @@
+#nk-wrapper {
+    position: relative; /* Req for slidedown effect on unsupported browser panel */
+}
+
+#nk-main_menu_component li.nk-bg_menu_empty {
+    width:0px;
+}
+
+/* Do not show quotes for IE7 (some clipping occurs) */
+.nk-carousel-reviews-quotes {
+    background: none;
+    padding-top: 0px;
+}
+
+/* C024 */
+form.nk-pc-filters legend {
+	margin-left:-7px;
+}
+
+/* C0104 */
+.nk-specs-panel-product-width {
+    text-align:right;
+}
+.nk-specs-panel-product-image-side .nk-specs-panel-product-width {
+    width:60px;
+}
+.nk-specs-panel-product-image-portrait .nk-specs-panel-product-width {
+    width:175px;
+}
+.nk-specs-panel-product-image-landscape .nk-specs-panel-product-width {
+    width:300px;
+}
+.nk-specs-panel-product-image-landscape .nk-specs-panel-product-width-title {
+    margin-bottom:6px;
+}
+.nk-specs-panel-product-width div {
+    width:5px; 
+}
+
+/* E001 Component, set fixed width, since min-width is not understood */ 
+.nk-link-cta-center {
+    width: 150px;
+}
+
+/* C0115 */
+.nk-support-downloads-item {
+    padding-bottom: 35px;
+}
+
+.nk-support-downloads-content-container .nk-generic-main-divider {
+    margin: -24px 0 11px 0;
+}
+
+/* t017 site search no-subnav */
+.nk-t017-c .nk-generic-negative-margin {
+	margin-top:0;
+}
+
+/* t029_contact IE7 issues */
+.nk-contact-pContentBtm .nk-contact-offices.first dl {
+	margin-bottom:-5px;
+}
+
+.nk-contact-pContentBtm,
+.nk-contact-pContentCenter,
+.nk-contact-pContentTop {
+	padding-bottom:10px;
+}
+
+/* C0040var1 */
+.nk-lang-link-right {
+	right:0; /* will not show the outer shower on the right hand side of the language selector */
+}
+
+.ltr #nk-lang-link span,
+.rtl #nk-lang-link span {
+    float: none;
+}
+
+/* c0089var2 positioning IE7 fix */
+#nk-support-arrow {
+    top: 43%;
+}
+
+/* c0090 fixes */
+div.nk-pd-contents h2 {
+    padding-top:2px;
+}
+
+#nk-pc-overlay-area ul.nk-phone-item li.nk-phone-details {
+    height:100%;
+}
+
+.nk-list-element .nk-prod-acc-img .nk-prod-acc-name {
+	width:100%;
+}
+
+/* m010 fixes */
+.nk-js ul.nk-phone-item {
+    margin-bottom:20px;
+}
+
+.nk-js ul.nk-pc-list {
+	width:49.9%;
+}
+
+/* catalog ie7 */
+#nk-pc-overlay-area .nk-pd-contents li {
+    vertical-align: top;
+    position: relative; 
+    top: -.2em;
+}
+
+#nk-pc-overlay-area .nk-phone-image-url {
+    width:131px;
+    margin-right:18px;
+}
+    
+/* c0080 ie7 fix*/
+.nk-support_search_input_bg {
+    border: none;
+    width: 407px; /*411*/
+}
+
+.nk-support_model_search_input_bg {
+    border-left: 1px #dde4ed solid !important;
+    border-bottom: 1px #dde4ed solid !important;
+    border-top: 1px #dde4ed solid !important;
+}
+
+.nk-support_model_search_input_bg {
+	border-right: 1px #dde4ed solid !important;
+}
+	
+.nk-support_search_button_bg {
+   border: none;
+   height: 25px;
+   width: 26px;
+}
+
+.nk-support_search_box_component {
+    border: 1px #dde4ed solid !important;
+    width: 444px;
+}
+
+.ltr .nk-search_button {
+    border-right-width: 0;
+    padding-right: 0;
+}  
+.rtl .nk-search_button {
+    border-left-width: 0px;    
+}  
+
+/* accessories carouse fix */
+.jcarousel-skin-acc .jcarousel-clip-horizontal {
+	left: 0px;
+}
+
+.ltr .nk-support-panel-container {
+    float: none;
+}
+
+/* C0097 */
+.nk-support-product-faq-container {
+    left: 235px;
+    margin-left: 0;
+    position: absolute;
+    top: 253px;
+    width: 450px;
+}
+
+.nk-support-generic-faq-container {
+    left: 235px;
+    margin-left: 0;
+    position: absolute;
+    top: 253px;
+    width: 450px;
+}
+
+/* C0119 */
+.nk-c0119_change_phone {
+    line-height: 15px;
+}
+
+/* C0098 */
+.nk-quick_links_element {
+    line-height: 15px;
+    margin-bottom: 9px;
+}
+.nk-pdfug-links .nk-quick_links_element {
+    margin-bottom: 4px;
+}
+
+.nk-quick_links_element .nk-quick_links-chevron, .nk-quick_links_element .nk-ext-link-arrow {
+	margin-top: 2px;
+}
+
+/* C0146 */
+.carousel-link-container {
+    line-height: 14px;
+}
+
+/* C0015 */
+.nk-bg_menu_gradient{
+    line-height: 16px;
+}
+#nk-main_menu_component .nk-bg_menu_gradient a{
+    height: 27px;
+    padding-top: 8px;
+}
+#nk-main_menu_component #nk-li-home a{
+    padding-top: 10px;
+}
+
+/* List style */
+.nk-article-content ol,
+.nk-article-accordion-container ol {
+    margin-left:42px;
+}
+
+.nk-article-content ol > li, 
+.nk-article-accordion-container ol > li {
+	
+margin-left:-17px;
+	list-style:decimal;
+}
+
+/* nk-corp-sub-page's margin top */
+.nk-corp-whiteBg-With-Nav .nk-corp-sub-page {
+	margin-top: 85px;
+}
+
+/*c0180*/
+#nk-qs-dropdown .nk-quick_links_element {
+    margin-bottom: 0;
+}
+
+/*c0181*/
+.c0181 .nk-quick_links_element a {
+		margin-top:-14px;
+}
+
+/*m035*/
+#nk-lang-selector-wrapper .nk-lang-wrapper-shadow {
+	padding-bottom:15px;
+}
+
+ul#nk-countries-list {
+	height:100%;
+	padding-bottom:10px;
+}
+
+#nk-lang-sel-top {
+	display:block;
+	padding-bottom:1px;
+}
+
+#nk-lang-sel-bottom {
+    padding-bottom: 30px;
+	margin-top:15px;
+}
+
+.nk-lang-wrapper-shadow {
+	height:auto;
+}
+
+/*c0120*/
+.nk-carousel_search_button {
+    width: 16px;
+}
+
+/*c0120*/
+.nk-carousel_search_title {
+	line-height: 1.5em;
+	margin-top: -12px;     
+}
+
+/*c0120*/
+.nk-support-landing-central-panel .nk-carousel_search_button {
+    left: 108px;
+}
+
+/*c0120*/
+.nk-support-landing-central-panel .nk-carousel_search_title,
+.nk-overlay-container .nk-carousel_search_container .nk-carousel_search_title,
+.nk-support-downloads-left-container .nk-carousel_search_container .nk-carousel_search_title {
+    height: 27px;
+}
+
+/* c0194 */
+.nk-js .nk-compare-hover-panel-inner {
+	margin-left:0;
+}
+
+/* m039 */
+.nk-comp-addaphone {
+	top:105px;
+}
+
+/* C0195*/
+#nk-pc-compare ul li img.nk-pc-mini-phone {
+	clip:rect(auto auto 33px auto);
+}
+
+#nk-pc-compare ul {
+    display:inline;
+}
+
+/* c0116 support search results/contact us dropdown fix */
+.nk-generic-right-links-gradient {
+	width: 15px;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebebeb', endColorstr='#ebebeb',GradientType=1 );
+}
+
+.nk-generic-links-scroll a:hover {
+	text-decoration: none;
+}
+
+/* opacity fix for prod landing carousel */
+#nk-product-land-panel-bg img.nk-active-img { 
+    display:none;
+}
+
+#nk-product-land-panel-bg .nk-product-land-panel-bodytxt {
+    display:none;
+}
+
+/* Remove position relative from footer when there is a large overlay on the page*/
+.nk-footer-logo-container {
+	position: static;
+}
+
+/* the max width of the navigation item needs to be bigger in ie7/8 */
+.nk-snav-container li a {
+    max-width: 99px;
+}
+
+/* m016 fix for gray search bar container */
+.nk-product-search-container {
+    height: 50px;
+    width: 410px;   
+}
+
+/* m016 fix for gray search bar */
+.nk-product-search-container .nk-support_search_box_component {
+   /* margin-left: 10px !important;   */
+}
+.rtl .nk-product-search-container .nk-support_search_box_component {
+    margin-top: 20px;
+    margin-left: 32px !important; 
+    width: 411px !important;
+}
+
+/* m016 fix for gray search bar title */
+.nk-product-search-container .nk-support-product-specific-search-header {
+    float: none;
+}
+.nk-product-search-container .nk-support_search_input {
+    width: 375px;
+}
+
+.rtl .nk-product-search-container .nk-support-product-specific-search-header {
+    float: right;
+}
+.rtl .nk-product-search-container .nk-support_search_input {
+    direction: rtl;
+}
+
+/* m016 fix for button, gray area search box  */
+.rtl .nk-product-support-center-middle-container .nk-product-support-button,
+.rtl .nk-product-support-center-middle-container .nk-product-support-dl-button,
+.rtl .nk-support-product-landing-central-panel .nk-product-search-container {
+    direction: ltr;
+}
+   
+/* navi fix c0015 */
+#nk-main_menu_component .nk-li_content {
+    line-height:14px;
+}
+
+/* c0116 fix for scrolling but NOT for dropdowns */
+.nk-support-non-js-linklist .nk-generic-links-scroll-container div {
+    position: relative;
+}
+
+/* c0116 fix for layout */
+.nk-generic-links-scroll-container .nk-generic-links-shadow, 
+.nk-generic-links-scroll-container .nk-non-js-links-gradient,
+.nk-support-non-js-linklist .nk-generic-links-shadow,
+.nk-support-non-js-linklist .nk-non-js-links-gradient {
+    position: absolute !important;
+}
+
+/* c0116 fix for very long text (doesn't seem to work anymore??) */
+/*
+.nk-generic-links-scroll-container {
+	max-width: 210px;
+}
+*/
+
+/* c0116 fix for hover bug */
+.nk-generic-links-scroll-container span {
+	width: 160px;
+}
+
+/* c0116 fix for layout */
+.nk-generic-links-scroll-container .nk-chevron,
+.nk-generic-links-scroll-container span {
+	padding-left: 0;
+}
+
+/* c0116 fix for layout */
+.nk-generic-links-scroll .nk-selected {
+	padding-left: 20px !important;
+}
+
+/* c0116 fix for layout */
+.nk-generic-links-scroll-container a .nk-chevron {
+	position: relative;
+}
+
+/* E004 buttons overlapping error boxes */
+.nk-simple-error {
+	margin: 10px 0 60px;
+}
+
+
+/* prod landing header fix */
+#nk-prd-land-navi h2 {
+    padding-bottom:6px;   
+}
+
+/* fade fix for support carousel */
+.nk-support-carousel-fade-left {
+    background: url(/s/22/ui_lib/m005/nk-carousel-left-fade-ie.png?v=562) no-repeat -0px 0px;
+}
+
+.nk-support-carousel-fade-right {
+    background: url(/s/22/ui_lib/m005/nk-carousel-right-fade-ie.png?v=562) no-repeat -0px 0px;
+}
+
+.nk-support-carousel-fade-left-wide {
+    background: url(/s/22/ui_lib/m005/nk-carousel-left-fade-ie-wide.png?v=562) no-repeat -0px 0px;
+}
+
+.nk-support-carousel-fade-right-wide {
+    background: url(/s/22/ui_lib/m005/nk-carousel-right-fade-ie-wide.png?v=562) no-repeat -0px 0px;
+}
+
+#nk-prd-land-navi .nk-video-menu li a {
+	overflow:hidden;
+}
+
+#nk-main_menu_component .nk-main_menu_top_border {
+	left: 30px;
+}
+
+/* RTL */
+
+/* Footer */
+.rtl div.nk-breadcrumbs ul.nk-quick_links_list, 
+.rtl li.nk-footer-bottom-panel-item {
+	float: none;
+}
+
+/* Product Overview Pagination */
+.rtl ul.nk-product-detail-carousel-flexible-pagination {
+	display: inline-block;
+	/*min-width: 200px;*/
+	/*float: left !important;*/
+}
+
+.rtl .nk-product-detail-carousel-flexible-pagination li {
+	/*float: right;*/
+	/*display: inline-block;*/
+	position: static;
+}
+
+/* prod specs */
+.rtl .nk-specs-panel-product-image {
+    float:left;
+}
+
+.rtl .nk-specs-panel-product-height-title {
+    left:-94px;
+}
+
+.rtl .nk-specs-panel-product-colors {
+    width:188px;
+    float:right;
+}
+
+/* Video Overlay */
+.rtl .nk-video-menu li {
+	min-width:100px;
+}
+/*support download page/maps*/
+.rtl  .nk-support-carousel-fade-left-wide	{
+	left:-15px;
+}
+
+.rtl  .nk-support-carousel-fade-right-wide	{
+	right:0px;
+}
+
+/* M002 */
+#nk-main_menu_component .nk-prd-drop-list li a span {
+	display:block;
+}
+
+/* t044 */
+.ltr .nk-genealtext-panel .nk-results-group ul,
+.rtl .nk-genealtext-panel .nk-results-group ul {
+    float: none;
+}
+
+/* c0080var2 */
+#nk-support-troubleshooting-search-container .nk-support_search_box_component {
+    left:inherit;
+    margin-left:0;
+}
+
+/* c0216 */
+.nk-center-panel .nk-simple-teaser .nk-teaser-image {
+	left: 15px;
+}

@@ -1,0 +1,3544 @@
+@media screen and (min-width: 640px){
+  /* line 74, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/base/_typography.sass */
+  .tiles .headline {
+    margin: 0;
+  }
+  /* line 410, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/base/_typography.sass */
+  .highlight-box.highlight-box-float {
+    width: 50%;
+  }
+  /* line 413, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/base/_typography.sass */
+  .highlight-box-float:nth-child(2n) {
+    clear: none;
+    float: right !important;
+  }
+  /* line 452, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/base/_typography.sass */
+  .icon-list li {
+    width: 33.33333%;
+  }
+  /* line 455, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/base/_typography.sass */
+  .tile-list {
+    zoom: 1;
+  }
+  /* line 174, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .tile-list:before, .tile-list:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+  /* line 179, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .tile-list:after {
+    clear: both;
+  }
+  /* line 489, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/base/_typography.sass */
+  .tile-list > li {
+    width: 50%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .tile-list > li {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .tile-list > li {
+    float: right;
+  }
+  /* line 497, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/base/_typography.sass */
+  .tile-list.single-column > li {
+    width: auto;
+    margin-bottom: 2em;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .tile-list.single-column > li {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .tile-list.single-column > li {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  /* line 555, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/base/_typography.sass */
+  ul.grid-list li {
+    width: 33.33333%;
+  }
+  /* line 558, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/base/_typography.sass */
+  ul.grid-list li:nth-child(2n+3) {
+    clear: none;
+  }
+  /* line 561, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/base/_typography.sass */
+  ul.grid-list li:nth-child(3n+4) {
+    clear: left;
+  }
+  /* line 565, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/base/_typography.sass */
+  ul.grid-list .visuals img {
+    width: 100%;
+  }
+  /* line 62, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component .viewport .cover .visuals {
+    height: 640px;
+  }
+  /* line 65, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component .viewport .cover .visuals img {
+    height: 640px;
+    margin-left: -800px;
+  }
+  /* line 72, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component.hero-area-story .viewport .cover .visuals {
+    height: 320px;
+  }
+  /* line 75, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component.hero-area-story .viewport .cover .visuals img {
+    height: 320px;
+    margin-left: -400px;
+  }
+  /* line 172, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component.overlay-content .viewport .cover .wrapper,
+  .full-bleed-component.overlay-content .viewport .cover .caption {
+    height: 640px;
+  }
+  /* line 5, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_header.sass */
+  #masthead {
+    padding: 0;
+  }
+  /* line 82, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_header.sass */
+  #masthead .wrapper {
+    width: 100%;
+  }
+  /* line 1, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_wrapper.sass */
+  .wrapper {
+    width: 608px;
+    margin: 0 auto;
+  }
+  /* line 38, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_layout.sass */
+  body article.with-side-column > .wrapper {
+    padding: 0;
+  }
+  /* line 41, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_layout.sass */
+  body article.with-side-column > .wrapper aside {
+    display: inline;
+    float: right;
+    width: 25%;
+  }
+  /* line 45, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_layout.sass */
+  body article.with-side-column > .wrapper .page-content-wrapper {
+    display: inline;
+    float: left;
+    width: 75%;
+  }
+  /* line 49, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_layout.sass */
+  body article.with-side-column > .wrapper .page-content-wrapper .page-content {
+    padding-right: 1em;
+  }
+  /* line 95, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_layout.sass */
+  body.rtl article.with-side-column > .wrapper aside {
+    display: inline;
+    float: left;
+  }
+  /* line 98, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_layout.sass */
+  body.rtl article.with-side-column > .wrapper .page-content-wrapper {
+    display: inline;
+    float: right;
+  }
+  /* line 101, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_layout.sass */
+  body.rtl article.with-side-column > .wrapper .page-content-wrapper .page-content {
+    padding-right: 0;
+    padding-left: 1em;
+  }
+  /* line 208, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_layout.sass */
+  .use-your-location .content-wrapper {
+    margin-top: 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .use-your-location .content-wrapper {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .use-your-location .content-wrapper {
+    float: left;
+  }
+  /* line 34, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_error_messages.sass */
+  article .error-links li {
+    display: inline;
+  }
+  /* line 37, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_error_messages.sass */
+  article .error-links a {
+    display: inline-block;
+  }
+  /* line 1, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_download_dropdown.sass */
+  .download-dropdown-wrapper {
+    padding-right: 50%;
+  }
+  /* line 60, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_enhance_inputs.sass */
+  .radio-group .headline {
+    width: auto;
+    margin-bottom: 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .radio-group .headline {
+    margin-right: 2em;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .radio-group .headline {
+    margin-left: 2em;
+  }
+  /* line 101, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_enhance_selects.sass */
+  .select-group .headline {
+    width: auto;
+    margin-bottom: 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .select-group .headline {
+    margin-right: 2em;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .select-group .headline {
+    margin-left: 2em;
+  }
+  /* line 2, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_back_to_top.sass */
+  .back-to-top {
+    display: none;
+  }
+  /* line 69, ../../../components/app_download/_styles.sass */
+  .app-download .qr-code-wrapper {
+    display: block;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .app-download .content {
+    margin: 0 6.625em;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .app-download .content {
+    margin: 0 6.625em;
+  }
+  /* line 77, ../../../components/app_download/_styles.sass */
+  .app-download .content .description {
+    display: block;
+  }
+  /* line 151, ../../../components/article_section/_styles.sass */
+  .article-section .responsive-figure {
+    background: #f2f2f2;
+    padding: 2em 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .article-section .responsive-figure {
+    margin: 0 1em 0 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .article-section .responsive-figure {
+    margin: 0 0 0 1em;
+  }
+  /* line 191, ../../../components/article_section/_styles.sass */
+  .article-section .icon-list li:nth-child(3n+1) {
+    clear: both;
+  }
+  /* line 194, ../../../components/article_section/_styles.sass */
+  .article-section .icon-list li:nth-child(2n+1) {
+    clear: none;
+  }
+  /* line 219, ../../../components/article_section/_styles.sass */
+  .article-section.centered .content {
+    width: 50%;
+  }
+  /* line 221, ../../../components/article_section/_styles.sass */
+  .article-section h3 {
+    width: 25%;
+    margin-top: 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .article-section h3 {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .article-section h3 {
+    float: right;
+  }
+  /* line 226, ../../../components/article_section/_styles.sass */
+  .article-section .visuals {
+    width: 25%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .article-section .visuals {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .article-section .visuals {
+    float: right;
+  }
+  /* line 230, ../../../components/article_section/_styles.sass */
+  .article-section .content {
+    width: 75%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .article-section .content {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .article-section .content {
+    float: left;
+  }
+  /* line 234, ../../../components/article_section/_styles.sass */
+  .article-section .figure {
+    background: #f2f2f2;
+  }
+  /* line 237, ../../../components/article_section/_styles.sass */
+  .article-section .figure img {
+    width: auto;
+  }
+  /* line 246, ../../../components/article_section/_styles.sass */
+  .article-section.latest-updates .visuals {
+    display: block;
+    width: 25%;
+  }
+  /* line 250, ../../../components/article_section/_styles.sass */
+  .article-section.latest-updates .content {
+    width: 75%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .article-section.categories .content {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .article-section.categories .content {
+    float: right;
+  }
+  /* line 301, ../../../components/article_section/_styles.sass */
+  .article-section.categories .content-wrapper {
+    border-bottom: 1px solid #f2f2f2;
+  }
+  /* line 227, ../../../components/article_text/_styles.sass */
+  .article-content-wrapper .article-text .wrapper {
+    width: 100%;
+    padding: 0;
+  }
+  /* line 176, ../../../components/aside_navigation/_styles.sass */
+  body.new-product-page .aside-navigation li:last-child a {
+    border-right: 1px solid #c2c2c2;
+  }
+  /* line 139, ../../../components/catalog_accessories/_styles.sass */
+  .catalog-accessories .visuals img {
+    height: 11.5em;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+    _height: 11.5em;
+  }
+  /* line 146, ../../../components/compare/_styles.sass */
+  .compare .disclaimers {
+    width: 80%;
+    border-bottom: 0px;
+  }
+  /* line 150, ../../../components/compare/_styles.sass */
+  .compare .full-specs {
+    display: none;
+  }
+  /* line 153, ../../../components/compare/_styles.sass */
+  .compare h2,
+  .compare .section {
+    display: block;
+  }
+  /* line 157, ../../../components/compare/_styles.sass */
+  .compare .section.first {
+    margin-top: 0;
+    border-bottom: 1px solid #e3e3e3;
+  }
+  /* line 161, ../../../components/compare/_styles.sass */
+  .compare h2.first {
+    display: none;
+  }
+  /* line 164, ../../../components/compare/_styles.sass */
+  .compare h3 a {
+    padding: 0.825em;
+    color: #333333;
+    border: none;
+  }
+  /* line 169, ../../../components/compare/_styles.sass */
+  .compare h3 a span {
+    display: none;
+  }
+  /* line 172, ../../../components/compare/_styles.sass */
+  .compare .image-row {
+    display: block;
+    zoom: 1;
+    border-bottom: 1px solid #e3e3e3;
+  }
+  /* line 174, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .compare .image-row:before, .compare .image-row:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+  /* line 179, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .compare .image-row:after {
+    clear: both;
+  }
+  /* line 177, ../../../components/compare/_styles.sass */
+  .compare .image-row li {
+    width: 25%;
+    text-align: center;
+    padding: 0.75em 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .compare .image-row li {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .compare .image-row li {
+    float: right;
+  }
+  /* line 183, ../../../components/compare/_styles.sass */
+  .compare .image-row img {
+    display: inline;
+  }
+  /* line 186, ../../../components/compare/_styles.sass */
+  .compare .image-row span {
+    display: block;
+    margin: 0.5em 0 0 0;
+    font-size: 0.75em;
+    color: #124191;
+  }
+  /* line 192, ../../../components/compare/_styles.sass */
+  .compare .compare-row {
+    background: none;
+    overflow: hidden;
+    zoom: 1;
+  }
+  /* line 174, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .compare .compare-row:before, .compare .compare-row:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+  /* line 179, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .compare .compare-row:after {
+    clear: both;
+  }
+  /* line 197, ../../../components/compare/_styles.sass */
+  .compare .compare-row.odd {
+    background: #f2f2f2;
+  }
+  /* line 200, ../../../components/compare/_styles.sass */
+  .compare .product-list {
+    width: 75%;
+    zoom: 1;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .compare .product-list {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .compare .product-list {
+    float: right;
+  }
+  /* line 174, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .compare .product-list:before, .compare .product-list:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+  /* line 179, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .compare .product-list:after {
+    clear: both;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .compare h3, body.ltr
+  .compare .product {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .compare h3, body.rtl
+  .compare .product {
+    float: right;
+  }
+  /* line 209, ../../../components/compare/_styles.sass */
+  .compare h3 {
+    width: 25%;
+  }
+  /* line 212, ../../../components/compare/_styles.sass */
+  .compare .product {
+    width: 33.33333%;
+    margin-right: -1px;
+    background: none;
+  }
+  /* line 217, ../../../components/compare/_styles.sass */
+  .compare .product.odd {
+    background: none;
+  }
+  /* line 220, ../../../components/compare/_styles.sass */
+  .compare .content {
+    padding: 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .compare .content {
+    margin-left: 0em;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .compare .content {
+    margin-right: 0em;
+  }
+  /* line 227, ../../../components/compare/_styles.sass */
+  .compare .content .product-name {
+    display: none;
+  }
+  /* line 230, ../../../components/compare/_styles.sass */
+  .compare .product-image {
+    display: none;
+  }
+  /* line 211, ../../../components/content_block/_styles.sass */
+  .content-block .headline {
+    font-size: 1.5em;
+    padding: 1.1em 1.325em 0 1.325em;
+  }
+  /* line 215, ../../../components/content_block/_styles.sass */
+  .content-block .caption {
+    font-size: 0.875em;
+    padding: 0 2em 1.5em 2em;
+  }
+  /* line 222, ../../../components/content_block/_styles.sass */
+  .content-block .visuals .moving-images video,
+  .content-block .visuals .moving-images img,
+  .content-block .visuals .images video,
+  .content-block .visuals .images img {
+    width: auto;
+    height: 304px;
+  }
+  /* line 229, ../../../components/content_block/_styles.sass */
+  .content-block .slideshow-posters .poster a {
+    width: 120px;
+    height: auto;
+  }
+  /* line 232, ../../../components/content_block/_styles.sass */
+  .content-block .slideshow-posters .yt-thumb {
+    margin: -12px 0;
+  }
+  /* line 236, ../../../components/content_block/_styles.sass */
+  .content-block .caption p {
+    color: #666666;
+  }
+  /* line 311, ../../../components/content_block/_styles.sass */
+  .content-block.full-bleed-light-text .caption, .content-block.full-bleed-dark-text .caption {
+    padding: 0 2em 1em;
+  }
+  /* line 72, ../../../components/cookie_notification/_styles.sass */
+  #cookie-notification p.short {
+    display: none;
+  }
+  /* line 74, ../../../components/cookie_notification/_styles.sass */
+  #cookie-notification p.long {
+    display: block;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr #cookie-notification p {
+    margin: 0 1em 0 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl #cookie-notification p {
+    margin: 0 0 0 1em;
+  }
+  /* line 110, ../../../components/feature_tiles/_styles.sass */
+  .feature-tiles h3 {
+    font-size: 2em;
+    font-weight: 300;
+  }
+  /* line 114, ../../../components/feature_tiles/_styles.sass */
+  .feature-tiles .headline {
+    font-size: 1.25em;
+  }
+  /* line 177, ../../../components/feature_tiles_small/_styles.sass */
+  .feature-tiles-small ul li .show-in-phone {
+    display: none;
+  }
+  /* line 180, ../../../components/feature_tiles_small/_styles.sass */
+  .feature-tiles-small ul li .show-in-tablet {
+    display: block;
+  }
+  /* line 106, ../../../components/filters/_styles.sass */
+  .filters ul li {
+    width: 25%;
+  }
+  /* line 109, ../../../components/filters/_styles.sass */
+  .filters .checkbox {
+    padding: 0.25em 0;
+    text-align: left;
+    background: transparent;
+  }
+  /* line 114, ../../../components/filters/_styles.sass */
+  .filters .checkbox span {
+    display: block;
+  }
+  /* line 117, ../../../components/filters/_styles.sass */
+  .filters .checkbox.enh-checkbox-selected {
+    color: #124191;
+    background: transparent;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .filters .checkbox strong {
+    float: right;
+  }
+  /* line 71, ../../../components/hero_area/_styles.sass */
+  .hero-area .headline {
+    font-size: 2.5em;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .hero-area .headline {
+    margin-right: 1em;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .hero-area .headline {
+    margin-left: 1em;
+  }
+  /* line 78, ../../../components/hero_area/_styles.sass */
+  .hero-area p {
+    margin: 0 0 0.25em 0;
+  }
+  /* line 45, ../../../components/hero_area_campaign/_styles.sass */
+  .hero-area-campaign .caption {
+    padding: 1.5em 1.75em;
+  }
+  /* line 48, ../../../components/hero_area_campaign/_styles.sass */
+  .hero-area-campaign .headline {
+    font-size: 2em;
+  }
+  /* line 51, ../../../components/hero_area_campaign/_styles.sass */
+  .hero-area-campaign p {
+    font-size: 1.25em;
+  }
+  /* line 134, ../../../components/hero_area_slideshow/_styles.sass */
+  .hero-area-slideshow .visuals {
+    margin: 0;
+    width: 50%;
+    overflow: hidden;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .hero-area-slideshow .visuals {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .hero-area-slideshow .visuals {
+    float: right;
+  }
+  /* line 140, ../../../components/hero_area_slideshow/_styles.sass */
+  .hero-area-slideshow .visuals img {
+    width: 100%;
+    padding: 0;
+    border: none;
+  }
+  /* line 145, ../../../components/hero_area_slideshow/_styles.sass */
+  .hero-area-slideshow .caption {
+    width: 50%;
+    height: 19em;
+    display: table;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .hero-area-slideshow .caption {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .hero-area-slideshow .caption {
+    float: left;
+  }
+  /* line 151, ../../../components/hero_area_slideshow/_styles.sass */
+  .hero-area-slideshow .caption-content {
+    padding: 1em;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  /* line 156, ../../../components/hero_area_slideshow/_styles.sass */
+  .hero-area-slideshow .headline {
+    font-size: 2em;
+  }
+  /* line 159, ../../../components/hero_area_slideshow/_styles.sass */
+  .hero-area-slideshow p {
+    font-size: 1em;
+  }
+  /* line 162, ../../../components/hero_area_slideshow/_styles.sass */
+  .hero-area-slideshow ul.controls {
+    display: block;
+  }
+  /* line 165, ../../../components/hero_area_slideshow/_styles.sass */
+  .hero-area-slideshow .arrow-controls {
+    display: none;
+  }
+  /* line 65, ../../../components/highlight_hero/_styles.sass */
+  .highlight-hero .visuals {
+    margin: 0;
+    width: 50%;
+    overflow: hidden;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .highlight-hero .visuals {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .highlight-hero .visuals {
+    float: left;
+  }
+  /* line 71, ../../../components/highlight_hero/_styles.sass */
+  .highlight-hero .visuals img {
+    width: 100%;
+    padding: 0;
+    border: none;
+  }
+  /* line 76, ../../../components/highlight_hero/_styles.sass */
+  .highlight-hero .caption {
+    width: 50%;
+    height: 19em;
+    display: table;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .highlight-hero .caption {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .highlight-hero .caption {
+    float: right;
+  }
+  /* line 82, ../../../components/highlight_hero/_styles.sass */
+  .highlight-hero .caption-content {
+    padding: 1em 0;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  /* line 87, ../../../components/highlight_hero/_styles.sass */
+  .highlight-hero .headline {
+    margin: 0;
+    font-size: 2em;
+  }
+  /* line 91, ../../../components/highlight_hero/_styles.sass */
+  .highlight-hero p {
+    font-size: 1em;
+  }
+  /* line 71, ../../../components/highlight_tiles/_styles.sass */
+  .highlight-tiles img {
+    bottom: 0;
+    width: 100%;
+  }
+  /* line 103, ../../../components/link_tiles/_styles.sass */
+  .link-tiles h3 {
+    margin-top: 0.275em;
+    width: 25%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .link-tiles h3 {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .link-tiles h3 {
+    float: right;
+  }
+  /* line 108, ../../../components/link_tiles/_styles.sass */
+  .link-tiles footer {
+    width: 75%;
+  }
+  /* line 111, ../../../components/link_tiles/_styles.sass */
+  .link-tiles ul {
+    width: 75%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .link-tiles ul {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .link-tiles ul {
+    float: left;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .link-tiles ul {
+    margin-top: 1em;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .link-tiles ul {
+    margin-top: 1em;
+  }
+  /* line 119, ../../../components/link_tiles/_styles.sass */
+  .link-tiles p.description {
+    width: 75%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .link-tiles p.description {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .link-tiles p.description {
+    float: left;
+  }
+  /* line 123, ../../../components/link_tiles/_styles.sass */
+  .link-tiles p.description {
+    margin-bottom: 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .navigation-tiles .offers-tile img {
+    left: 0em;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .navigation-tiles .offers-tile img {
+    right: 0em;
+  }
+  /* line 421, ../../../components/navigation_tiles/_styles.sass */
+  .navigation-tiles .offers-tile .caption {
+    vertical-align: middle;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .navigation-tiles .offers-tile .caption {
+    text-align: center;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .navigation-tiles .offers-tile .caption {
+    text-align: center;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .navigation-tiles .offers-tile .caption h3, body.ltr .navigation-tiles .offers-tile .caption .type, body.ltr .navigation-tiles .offers-tile .caption .price, body.ltr .navigation-tiles .offers-tile .caption .operation-logo {
+    padding-left: 40%;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .navigation-tiles .offers-tile .caption h3, body.rtl .navigation-tiles .offers-tile .caption .type, body.rtl .navigation-tiles .offers-tile .caption .price, body.rtl .navigation-tiles .offers-tile .caption .operation-logo {
+    padding-right: 40%;
+  }
+  /* line 487, ../../../components/navigation_tiles/_styles.sass */
+  body.ltr.long-prices .offers-tile .caption p.price, body.ltr.long-prices .offers-tile .caption .price, body.ltr.long-prices .offers-tile .caption .long-price {
+    margin-left: 40%;
+  }
+  /* line 509, ../../../components/navigation_tiles/_styles.sass */
+  body.rtl.long-prices .offers-tile .caption p.price, body.rtl.long-prices .offers-tile .caption .price, body.rtl.long-prices .offers-tile .caption .long-price {
+    margin-right: 40%;
+  }
+  /* line 29, ../../../components/offers_filters/_styles.sass */
+  .offers-filters .responsive-figure {
+    background: #f2f2f2;
+    padding: 2em 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .offers-filters .responsive-figure {
+    margin: 0 1em 0 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .offers-filters .responsive-figure {
+    margin: 0 0 0 1em;
+  }
+  /* line 95, ../../../components/offers_filters/_styles.sass */
+  .offers-filters .visuals {
+    display: block;
+    width: 25%;
+    margin-bottom: 0.75em;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .offers-filters .visuals {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .offers-filters .visuals {
+    float: right;
+  }
+  /* line 101, ../../../components/offers_filters/_styles.sass */
+  .offers-filters .figure {
+    background: #f2f2f2;
+  }
+  /* line 104, ../../../components/offers_filters/_styles.sass */
+  .offers-filters .figure img {
+    display: inline;
+    width: auto;
+    height: auto;
+    margin: 0;
+  }
+  /* line 110, ../../../components/offers_filters/_styles.sass */
+  .offers-filters .content {
+    width: 75%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .offers-filters .content {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .offers-filters .content {
+    float: left;
+  }
+  /* line 114, ../../../components/offers_filters/_styles.sass */
+  .offers-filters .content h4 {
+    margin-top: 0;
+  }
+  /* line 117, ../../../components/offers_filters/_styles.sass */
+  .offers-filters .filter-links {
+    border-bottom: 1px solid #e3e3e3;
+  }
+  /* line 120, ../../../components/offers_filters/_styles.sass */
+  .offers-filters .filter-links h4 {
+    margin-right: 1.5em;
+    margin-bottom: 0.5em;
+    float: left;
+  }
+  /* line 125, ../../../components/offers_filters/_styles.sass */
+  .offers-filters h4.categories-headline {
+    display: none;
+  }
+  /* line 284, ../../../components/offers_filters/_styles.sass */
+  .offers-filters form ul.categories {
+    padding-top: 0;
+    margin-top: -1px;
+  }
+  /* line 266, ../../../components/offers_list/_styles.sass */
+  .offers-list .providers img {
+    height: 35px;
+  }
+  /* line 269, ../../../components/offers_list/_styles.sass */
+  .offers-list dt {
+    width: 40%;
+  }
+  /* line 272, ../../../components/offers_list/_styles.sass */
+  .offers-list dd {
+    width: 60%;
+  }
+  /* line 63, ../../../components/page_header/_styles.sass */
+  .page-header .headline {
+    font-size: 1.5em;
+  }
+  /* line 145, ../../../components/product_availability_notifier/_styles.sass */
+  .product-notifier h3 {
+    margin-bottom: 0;
+  }
+  /* line 81, ../../../components/product_hero_area/_styles.sass */
+  .product-hero-area .slides .slideshow-video {
+    width: 100%;
+    padding: 0;
+    border: 1px solid #dddddd;
+  }
+  /* line 216, ../../../components/product_hero_area/_styles.sass */
+  .product-hero-area .headline.sub {
+    font-size: 1.5em;
+    font-weight: 300;
+  }
+  /* line 220, ../../../components/product_hero_area/_styles.sass */
+  .product-hero-area .section-header {
+    text-align: left;
+  }
+  /* line 99, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.js .product-hero-area ul.controls {
+    display: block;
+  }
+  /* line 231, ../../../components/product_hero_area/_styles.sass */
+  .product-hero-area .visuals.single-image img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    left: 0;
+  }
+  /* line 238, ../../../components/product_hero_area/_styles.sass */
+  .product-hero-area .slide {
+    height: auto;
+  }
+  /* line 241, ../../../components/product_hero_area/_styles.sass */
+  .product-hero-area .slides img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    left: 0;
+    bottom: 0;
+  }
+  /* line 306, ../../../components/product_selector/_styles.sass */
+  .product-selector ul.view-all-phones-list li {
+    width: 20%;
+  }
+  /* line 312, ../../../components/product_selector/_styles.sass */
+  body.js .product-selector.product-selected .content .info {
+    width: 50%;
+  }
+  /* line 317, ../../../components/product_selector/_styles.sass */
+  body.js .product-selector.product-selected .search {
+    width: 25%;
+  }
+  /* line 320, ../../../components/product_selector/_styles.sass */
+  body.js .product-selector.product-selected .search label {
+    margin-left: 0;
+  }
+  /* line 324, ../../../components/product_selector/_styles.sass */
+  body.js .product-selector.product-selected .content .info {
+    padding: 0 0 1em 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .product-selector h4 {
+    margin-right: 1em;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .product-selector h4 {
+    margin-left: 1em;
+  }
+  /* line 395, ../../../components/product_selector/_styles.sass */
+  .product-selector .search {
+    display: inline-block !important;
+  }
+  /* line 399, ../../../components/product_selector/_styles.sass */
+  .product-selector.support div.find-model-number a.label {
+    display: inline;
+  }
+  /* line 64, ../../../components/product_specification_snapshot/_styles.sass */
+  .product-specification-snapshot ul.two li, .product-specification-snapshot ul.four li {
+    width: 50%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .product-specification-snapshot ul.two li, body.ltr .product-specification-snapshot ul.four li {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .product-specification-snapshot ul.two li, body.rtl .product-specification-snapshot ul.four li {
+    float: right;
+  }
+  /* line 68, ../../../components/product_specification_snapshot/_styles.sass */
+  .product-specification-snapshot ul.two li:nth-child(2n+3), .product-specification-snapshot ul.four li:nth-child(2n+3) {
+    clear: left;
+  }
+  /* line 79, ../../../components/product_specification_snapshot/_styles.sass */
+  .product-specification-snapshot ul.four {
+    padding: 0;
+  }
+  /* line 86, ../../../components/product_specification_snapshot/_styles.sass */
+  .product-specification-snapshot ul.four li {
+    padding: 1.75em 0;
+    width: 303px;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+  }
+  /* line 92, ../../../components/product_specification_snapshot/_styles.sass */
+  .product-specification-snapshot ul.four li:nth-child(2n+3) {
+    clear: none;
+  }
+  /* line 197, ../../../components/search_results/_styles.sass */
+  .search-results form .filter-values {
+    width: 70%;
+    float: right;
+  }
+  /* line 200, ../../../components/search_results/_styles.sass */
+  .search-results form .filter-values .enh-select {
+    width: 50%;
+  }
+  /* line 203, ../../../components/search_results/_styles.sass */
+  .search-results form .radio-group label {
+    width: 24%;
+    float: left;
+  }
+  /* line 211, ../../../components/search_results/_styles.sass */
+  .search-results .primary > ul > li,
+  .search-results .secondary > ul > li {
+    padding: 2em 0;
+  }
+  /* line 137, ../../../components/solution_tree/_styles.sass */
+  .solution-tree .tile {
+    width: 33.333%;
+  }
+  /* line 140, ../../../components/solution_tree/_styles.sass */
+  .solution-tree .tile_wrapper {
+    overflow: hidden;
+  }
+  /* line 145, ../../../components/solution_tree/_styles.sass */
+  .solution-tree .content:not(.numbered-list) > .tiles .tile:nth-of-type(3n+1) .tile_wrapper,
+  .solution-tree .care-content-wrapper.troubleshooter-topic > .tiles .tile:nth-of-type(3n+1) .tile_wrapper {
+    margin: 0 0.5em 0 0;
+  }
+  /* line 148, ../../../components/solution_tree/_styles.sass */
+  .solution-tree .content:not(.numbered-list) > .tiles .tile:nth-of-type(3n+2) .tile_wrapper,
+  .solution-tree .care-content-wrapper.troubleshooter-topic > .tiles .tile:nth-of-type(3n+2) .tile_wrapper {
+    margin: 0 0.5em;
+  }
+  /* line 151, ../../../components/solution_tree/_styles.sass */
+  .solution-tree .content:not(.numbered-list) > .tiles .tile:nth-of-type(3n+3) .tile_wrapper,
+  .solution-tree .care-content-wrapper.troubleshooter-topic > .tiles .tile:nth-of-type(3n+3) .tile_wrapper {
+    margin: 0 0 0 0.5em;
+  }
+  /* line 154, ../../../components/solution_tree/_styles.sass */
+  .solution-tree .visuals {
+    width: 25%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .solution-tree .visuals {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .solution-tree .visuals {
+    float: right;
+  }
+  /* line 158, ../../../components/solution_tree/_styles.sass */
+  .solution-tree .visuals figure {
+    background: #f2f2f2;
+    padding: 1em 0.5em;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .solution-tree .visuals figure {
+    margin-right: 1em;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .solution-tree .visuals figure {
+    margin-left: 1em;
+  }
+  /* line 166, ../../../components/solution_tree/_styles.sass */
+  .solution-tree .visuals img {
+    width: 100%;
+    display: inline-block;
+  }
+  /* line 170, ../../../components/solution_tree/_styles.sass */
+  .solution-tree .content {
+    width: 75%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .solution-tree .content {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .solution-tree .content {
+    float: right;
+  }
+  /* line 173, ../../../components/solution_tree/_styles.sass */
+  .solution-tree .content h4 {
+    margin-top: 0;
+  }
+  /* line 176, ../../../components/solution_tree/_styles.sass */
+  .solution-tree .care-content-wrapper .content {
+    width: 100%;
+  }
+  /* line 179, ../../../components/solution_tree/_styles.sass */
+  .solution-tree .content-wrapper.care-content-wrapper .content {
+    width: 75%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .solution-tree .content-wrapper.care-content-wrapper .content {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .solution-tree .content-wrapper.care-content-wrapper .content {
+    float: left;
+  }
+  /* line 195, ../../../components/specifications/_styles.sass */
+  .specifications ul li {
+    zoom: 1;
+    border: none;
+  }
+  /* line 174, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .specifications ul li:before, .specifications ul li:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+  /* line 179, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .specifications ul li:after {
+    clear: both;
+  }
+  /* line 199, ../../../components/specifications/_styles.sass */
+  .specifications ul li a,
+  .specifications ul li span.headline {
+    font-size: 1.1em;
+    padding: 0.5em 0;
+    cursor: default;
+    color: #333333;
+  }
+  /* line 206, ../../../components/specifications/_styles.sass */
+  .specifications ul li a span,
+  .specifications ul li span.headline span {
+    display: none;
+  }
+  /* line 209, ../../../components/specifications/_styles.sass */
+  .specifications ul li ul {
+    height: auto !important;
+    position: relative;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .specifications ul li ul li {
+    padding: 0 12em 0 0;
+  }
+  /* line 216, ../../../components/specifications/_styles.sass */
+  body.ltr .specifications ul li ul li.visuals {
+    padding: 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .specifications ul li ul li {
+    padding: 0 0 0 12em;
+  }
+  /* line 220, ../../../components/specifications/_styles.sass */
+  body.rtl .specifications ul li ul li.visuals {
+    padding: 0;
+  }
+  /* line 223, ../../../components/specifications/_styles.sass */
+  .specifications ul li ul li strong {
+    width: 20%;
+    color: #333333;
+    font-weight: normal;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .specifications ul li ul li strong {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .specifications ul li ul li strong {
+    float: right;
+  }
+  /* line 229, ../../../components/specifications/_styles.sass */
+  .specifications ul li ul li ul {
+    width: 80%;
+    position: static;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .specifications ul li ul li ul {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .specifications ul li ul li ul {
+    float: left;
+  }
+  /* line 234, ../../../components/specifications/_styles.sass */
+  .specifications ul li ul li ul .logo {
+    display: block;
+    position: absolute;
+    top: 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .specifications ul li ul li ul .logo {
+    right: -11em;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .specifications ul li ul li ul .logo {
+    left: -11em;
+  }
+  /* line 243, ../../../components/specifications/_styles.sass */
+  .specifications ul li ul li ul li, .specifications ul li ul li ul li:first-child {
+    border: none;
+  }
+  /* line 246, ../../../components/specifications/_styles.sass */
+  .specifications ul li ul li.visuals {
+    padding: 0;
+  }
+  /* line 249, ../../../components/specifications/_styles.sass */
+  .specifications ul li ul li.visuals ul.visuals {
+    width: 60%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .specifications ul li ul li.visuals ul.visuals {
+    text-align: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .specifications ul li ul li.visuals ul.visuals {
+    text-align: right;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .specifications ul li ul li.visuals ul.visuals {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .specifications ul li ul li.visuals ul.visuals {
+    float: right;
+  }
+  /* line 259, ../../../components/specifications/_styles.sass */
+  .specifications ul li ul li.visuals ul.visuals li {
+    display: inline;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .specifications ul li ul li.visuals ul.visuals li {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .specifications ul li ul li.visuals ul.visuals li {
+    float: right;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .specifications ul li ul li.visuals ul {
+    padding-left: 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .specifications ul li ul li.visuals ul {
+    padding-right: 0;
+  }
+  /* line 268, ../../../components/specifications/_styles.sass */
+  .specifications ul li ul li.visuals ul {
+    width: 40%;
+    margin: 1em 0 0 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .specifications ul li ul li.visuals ul {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .specifications ul li ul li.visuals ul {
+    float: right;
+  }
+  /* line 273, ../../../components/specifications/_styles.sass */
+  .specifications ul li ul li.visuals ul.color-options {
+    margin-top: 3em;
+  }
+  /* line 277, ../../../components/specifications/_styles.sass */
+  .specifications ul li ul li:first-child li {
+    border: none;
+  }
+  /* line 280, ../../../components/specifications/_styles.sass */
+  .specifications ul li ul li:last-child {
+    border: none;
+  }
+  /* line 282, ../../../components/specifications/_styles.sass */
+  .specifications ul li ul li:last-child li {
+    border: none;
+  }
+  /* line 285, ../../../components/specifications/_styles.sass */
+  .specifications ul p.disclaimer {
+    width: 80%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .specifications ul p.disclaimer {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .specifications ul p.disclaimer {
+    float: left;
+  }
+  /* line 290, ../../../components/specifications/_styles.sass */
+  .specifications ul.enh-toggle li a, .specifications ul.enh-toggle li span.headline {
+    padding: 0 0 0.5em 0;
+    margin-bottom: 0.4em;
+    border-bottom: 1px solid #e3e3e3;
+  }
+  /* line 295, ../../../components/specifications/_styles.sass */
+  .specifications ul.enh-toggle-opened {
+    border: none;
+  }
+  /* line 298, ../../../components/specifications/_styles.sass */
+  .specifications ul.disclaimers {
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #bababa;
+    padding: 1.25em 0 1.5em 0;
+    margin: 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .specifications ul.disclaimers li {
+    padding: 0 12em 0 0;
+  }
+  /* line 306, ../../../components/specifications/_styles.sass */
+  body.ltr .specifications ul.disclaimers li.visuals {
+    padding: 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .specifications ul.disclaimers li {
+    padding: 0 0 0 12em;
+  }
+  /* line 310, ../../../components/specifications/_styles.sass */
+  body.rtl .specifications ul.disclaimers li.visuals {
+    padding: 0;
+  }
+  /* line 312, ../../../components/specifications/_styles.sass */
+  .specifications ul.disclaimers li p {
+    width: 80%;
+  }
+  /* line 337, ../../../components/specifications/_styles.sass */
+  .specifications.category a.enh-toggle-active {
+    background: white;
+  }
+  /* line 344, ../../../components/specifications/_styles.sass */
+  .specifications.category ul.enh-toggle > li > a {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .specifications.category ul li ul li {
+    padding: 0 0 0 25%;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .specifications.category ul li ul li {
+    padding: 0 25% 0 0;
+  }
+  /* line 362, ../../../components/specifications/_styles.sass */
+  .specifications.category ul li ul li ul {
+    width: 50%;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  /* line 158, ../../../components/specifications_snapshot/_styles.sass */
+  .specifications-snapshot div.specs {
+    zoom: 1;
+  }
+  /* line 174, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .specifications-snapshot div.specs:before, .specifications-snapshot div.specs:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+  /* line 179, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .specifications-snapshot div.specs:after {
+    clear: both;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .specifications-snapshot ul.info {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .specifications-snapshot ul.info {
+    float: right;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .specifications-snapshot ul.visuals {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .specifications-snapshot ul.visuals {
+    float: left;
+  }
+  /* line 167, ../../../components/specifications_snapshot/_styles.sass */
+  .specifications-snapshot ul.info {
+    width: 50%;
+  }
+  /* line 170, ../../../components/specifications_snapshot/_styles.sass */
+  .specifications-snapshot ul.visuals {
+    width: 40%;
+  }
+  /* line 217, ../../../components/specifications_snapshot/_styles.sass */
+  body.new-product-page .specifications-snapshot .specs {
+    padding-top: 2em;
+  }
+  /* line 19, ../../../components/video/_styles.sass */
+  .article-content-wrapper .video .wrapper {
+    width: 100%;
+    padding: 0;
+  }
+  /* line 69, ../../../components/video_list/_styles.sass */
+  .video-list ul {
+    margin-left: 25% !important;
+  }
+  /* line 72, ../../../components/video_list/_styles.sass */
+  .video-list ul div {
+    height: 9em;
+  }
+  /* line 75, ../../../components/video_list/_styles.sass */
+  .video-list li {
+    width: 48%;
+  }
+}
+@media screen and (min-width: 708px){
+  /* line 342, ../../../components/form/_styles.sass */
+  .wal-iframe .form h2 {
+    border-top: 1px solid #d0d9e9;
+    margin-bottom: 1.5em;
+    margin-top: 0em;
+    padding-top: 1.5em;
+  }
+  /* line 350, ../../../components/form/_styles.sass */
+  .wal-iframe .form form fieldset.wrapper label {
+    width: 50%;
+  }
+  /* line 353, ../../../components/form/_styles.sass */
+  .wal-iframe .form form fieldset.wrapper .actions {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 767px){
+  /* line 276, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .scroll_container {
+    width: auto !important;
+  }
+}
+@media screen and (min-width: 768px){
+  /* line 227, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_placeholders.sass */
+  .component-footer ul.halfs li {
+    width: 50%;
+  }
+  /* line 230, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_placeholders.sass */
+  .component-footer ul.thirds li {
+    width: 33.33333%;
+  }
+  /* line 233, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_placeholders.sass */
+  .component-footer li.middle {
+    text-align: center;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .component-footer li.last {
+    text-align: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .component-footer li.last {
+    text-align: left;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .component-footer li.last {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .component-footer li.last {
+    float: left;
+  }
+  /* line 78, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/base/_typography.sass */
+  .tiles .headline {
+    font-size: 1.125em;
+    margin-top: 0;
+  }
+  /* line 82, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/base/_typography.sass */
+  .tiles .headline.sub {
+    margin-top: 0.3em;
+  }
+  /* line 570, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/base/_typography.sass */
+  ul.grid-list .visuals img {
+    width: 80%;
+  }
+  /* line 84, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component .viewport .cover .visuals {
+    height: 352px;
+  }
+  /* line 87, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component .viewport .cover .visuals img {
+    height: 422.4px;
+    margin-left: -528px;
+  }
+  /* line 94, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component.hero-area-story .viewport .cover .visuals {
+    height: 352px;
+  }
+  /* line 97, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component.hero-area-story .viewport .cover .visuals img {
+    height: 422.4px;
+    margin-left: -528px;
+  }
+  /* line 179, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component.overlay-content .viewport .cover .wrapper,
+  .full-bleed-component.overlay-content .viewport .cover .caption {
+    height: 352px;
+  }
+  /* line 86, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_header.sass */
+  #masthead a.go-to-tools {
+    display: none;
+  }
+  /* line 89, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_header.sass */
+  #masthead .wrapper {
+    padding: 0 1em;
+    width: 704px;
+    margin: 0 auto;
+  }
+  /* line 93, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_header.sass */
+  #masthead a.logo {
+    margin: 1px 0 0 0;
+  }
+  /* line 1, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_wrapper.sass */
+  .wrapper {
+    width: 704px;
+    margin: 0 auto;
+  }
+  /* line 82, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_layout.sass */
+  body #main > section:first-child,
+  body #main > header:first-child {
+    padding-top: 2em;
+  }
+  /* line 88, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_layout.sass */
+  body #main aside:first-child > section:first-child {
+    padding-top: 2em;
+  }
+  /* line 83, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_site_search.sass */
+  .site-search form {
+    padding: 1em 0;
+  }
+  /* line 86, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_site_search.sass */
+  .site-search input.search {
+    width: 90%;
+  }
+  /* line 5, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_site_search.sass */
+  .site-search {
+    display: block;
+    height: 3em !important;
+    position: absolute;
+    top: 0;
+    right: 0.75em;
+    width: 11em;
+    background: transparent;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .site-search {
+    right: auto;
+    left: 0;
+  }
+  /* line 101, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_site_search.sass */
+  .site-search form {
+    padding: 0;
+  }
+  /* line 103, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_site_search.sass */
+  .site-search label {
+    display: none;
+  }
+  /* line 106, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_site_search.sass */
+  .site-search input.search {
+    width: 9.5em;
+    height: 1em;
+    font-size: 0.875em;
+    padding: 0.75em 0.25em 0.25em 0.25em;
+    background-color: transparent;
+    color: #5175b3;
+    border-bottom: 1px solid #5175b3;
+  }
+  /* line 115, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_site_search.sass */
+  .site-search input.search:focus {
+    background-color: white;
+    border-bottom: 1px solid white;
+    color: #124191;
+  }
+  /* line 121, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_site_search.sass */
+  .site-search input.search.enh-placeholder:focus {
+    color: #5175b3;
+  }
+  /* line 30, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .site-search input::-webkit-input-placeholder {
+    color: #5175b3;
+  }
+  /* line 32, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .site-search input:-moz-placeholder {
+    color: #5175b3;
+  }
+  /* line 34, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .site-search input[placeholder] {
+    color: #5175b3;
+  }
+  /* line 126, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_site_search.sass */
+  .site-search input.submit-search {
+    top: -0.175em;
+    background: transparent url(../images/layout/icons/search.png?v=14.476) no-repeat center center;
+  }
+  /* line 130, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_site_search.sass */
+  .site-search input.submit-search:hover {
+    background-color: transparent;
+  }
+  /* line 133, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_site_search.sass */
+  .site-search.enh-toggle-opened {
+    border: none;
+  }
+  /* line 136, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_site_search.sass */
+  .site-search .full-width-field {
+    width: auto;
+    position: relative;
+    padding: 0.5em 1em;
+    height: 2.1em;
+    margin-right: -0.75em;
+    background-color: transparent;
+  }
+  /* line 145, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_site_search.sass */
+  .site-search .full-width-field.focused {
+    background: white;
+  }
+  /* line 148, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_site_search.sass */
+  .site-search .full-width-field.focused input.search {
+    border-bottom: 1px solid #124191;
+  }
+  /* line 151, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_site_search.sass */
+  .site-search .full-width-field.focused input.submit-search {
+    background: transparent url(../images/layout/icons/search_hover.png?v=14.476) no-repeat center center;
+  }
+  /* line 156, ../../../components/article_text/_styles.sass */
+  .article-text ul.horizontal-list li, .article-text ol.horizontal-list li {
+    width: 33.33333%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .article-text ul.horizontal-list li:nth-child(2n+3), body.ltr .article-text ol.horizontal-list li:nth-child(2n+3) {
+    clear: none;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .article-text ul.horizontal-list li:nth-child(2n+3), body.rtl .article-text ol.horizontal-list li:nth-child(2n+3) {
+    clear: none;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .article-text ul.horizontal-list li:nth-child(3n+4), body.ltr .article-text ol.horizontal-list li:nth-child(3n+4) {
+    clear: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .article-text ul.horizontal-list li:nth-child(3n+4), body.rtl .article-text ol.horizontal-list li:nth-child(3n+4) {
+    clear: right;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .article-text .content-wrapper > p, body.ltr .article-text .content-wrapper > h2, body.ltr .article-text .content-wrapper > h3, body.ltr .article-text .content-wrapper > ul, body.ltr .article-text .content-wrapper > ol {
+    padding-right: 17.5%;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .article-text .content-wrapper > p, body.rtl .article-text .content-wrapper > h2, body.rtl .article-text .content-wrapper > h3, body.rtl .article-text .content-wrapper > ul, body.rtl .article-text .content-wrapper > ol {
+    padding-left: 17.5%;
+  }
+  /* line 102, ../../../components/aside_navigation/_styles.sass */
+  .aside-navigation.five-menu-navigation ul li {
+    width: 20%;
+  }
+  /* line 107, ../../../components/aside_navigation/_styles.sass */
+  .aside-navigation.six-menu-navigation ul li {
+    width: 16.66667%;
+  }
+  /* line 110, ../../../components/aside_navigation/_styles.sass */
+  .aside-navigation.six-menu-navigation a {
+    margin-bottom: 1px;
+  }
+  /* line 141, ../../../components/badge_of_honor/_styles.sass */
+  .badge-of-honor .content {
+    font-size: 1em;
+  }
+  /* line 292, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .viewport .cover .headline,
+  .benefit-block .viewport .slide .headline {
+    font-size: 3.75em;
+    line-height: 0.8em;
+    margin-bottom: 0.5em;
+  }
+  /* line 298, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .viewport .cover header {
+    padding: 0;
+  }
+  /* line 302, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .viewport .slide .headline {
+    font-size: 2.5em;
+  }
+  /* line 305, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .viewport .slide .visuals {
+    width: 50%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .benefit-block .viewport .slide .visuals {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .benefit-block .viewport .slide .visuals {
+    float: right;
+  }
+  /* line 309, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .viewport .slide header {
+    position: absolute;
+    top: 3em;
+    left: 50%;
+    width: 50%;
+  }
+  /* line 315, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .viewport .slide .header-content-wrapper {
+    padding: 0 3em;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .benefit-block .viewport .slide .header-content-wrapper {
+    text-align: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .benefit-block .viewport .slide .header-content-wrapper {
+    text-align: right;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .benefit-block .viewport .slide.text-left .visuals {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .benefit-block .viewport .slide.text-left .visuals {
+    float: left;
+  }
+  /* line 323, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .viewport .slide.text-left header {
+    left: 0;
+  }
+  /* line 332, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .scroll_container {
+    width: auto;
+  }
+  /* line 362, ../../../components/benefit_block/_styles.sass */
+  body.js .benefit-block.swipeshow .controls,
+  body.js .benefit-block.swipeshow .arrow-controls {
+    display: block;
+  }
+  /* line 408, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .cover.shout-out header {
+    height: auto;
+  }
+  /* line 411, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .cover.shout-out .headline {
+    font-size: 3.75em;
+    margin-top: 0;
+    margin-bottom: 0.125em;
+  }
+  /* line 416, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .cover.shout-out .sub-headline {
+    display: block;
+    font-size: 2em;
+  }
+  /* line 420, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .cover.shout-out .caption-content {
+    margin-top: 1em;
+    position: relative;
+    bottom: auto;
+  }
+  /* line 446, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .cover.text-left header,
+  .benefit-block .cover.text-right header {
+    bottom: auto;
+  }
+  /* line 449, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .cover.text-left .headline-content,
+  .benefit-block .cover.text-right .headline-content {
+    border-bottom: 3px solid white;
+    margin-bottom: 1em;
+  }
+  /* line 453, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .cover.text-left .headline,
+  .benefit-block .cover.text-right .headline {
+    margin-bottom: 0.325em;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .benefit-block .cover.text-left .sub-headline, body.ltr
+  .benefit-block .cover.text-right .sub-headline {
+    margin: 0 50% 0.5em 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .benefit-block .cover.text-left .sub-headline, body.rtl
+  .benefit-block .cover.text-right .sub-headline {
+    margin: 0 0 0.5em 50%;
+  }
+  /* line 462, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .cover.text-left .caption,
+  .benefit-block .cover.text-right .caption {
+    width: 50%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .benefit-block .cover.text-right .caption {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .benefit-block .cover.text-right .caption {
+    float: left;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .benefit-block .cover.text-left .caption {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .benefit-block .cover.text-left .caption {
+    float: right;
+  }
+  /* line 487, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .cover.text-left.shout-out .headline-content,
+  .benefit-block .cover.text-right.shout-out .headline-content {
+    border-bottom: none;
+  }
+  /* line 490, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .cover.text-left.shout-out .headline,
+  .benefit-block .cover.text-right.shout-out .headline {
+    font-size: 3.75em;
+    line-height: 0.8em;
+  }
+  /* line 525, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .cover.shout-out.light-text .headline {
+    font-size: 3.75em;
+    line-height: 0.8em;
+  }
+  /* line 529, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .cover.shout-out.light-text .caption-content {
+    padding: 0 15%;
+  }
+  /* line 165, ../../../components/catalog/_styles.sass */
+  .catalog ul li {
+    width: 33.33333%;
+  }
+  /* line 169, ../../../components/catalog/_styles.sass */
+  .catalog .tile-content-wrapper img {
+    height: 182px;
+  }
+  /* line 175, ../../../components/catalog/_styles.sass */
+  .catalog.over-four ul li.fourth {
+    display: none;
+  }
+  /* line 112, ../../../components/compare_selector/_styles.sass */
+  .compare-selector h5,
+  .compare-selector a.start-comparison {
+    height: 100px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+    _height: 100px;
+    line-height: 100px;
+    padding: 0 1em;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .compare-selector a.start-comparison {
+    padding-left: 2.5em;
+    margin-left: 1em;
+    background: url(../images/layout/icons/compare_arrow.png?v=14.476) no-repeat left center;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .compare-selector a.start-comparison {
+    padding-right: 2.5em;
+    margin-right: 1em;
+    background: url(../images/layout/icons/compare_arrow_rtl.png?v=14.476) no-repeat right center;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .compare-selector h5 {
+    text-align: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .compare-selector h5 {
+    text-align: left;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .compare-selector a.start-comparison {
+    text-align: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .compare-selector a.start-comparison {
+    text-align: right;
+  }
+  /* line 134, ../../../components/compare_selector/_styles.sass */
+  .compare-selector .phone-list,
+  .compare-selector li {
+    height: 120px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+    _height: 120px;
+  }
+  /* line 138, ../../../components/compare_selector/_styles.sass */
+  .compare-selector li {
+    background-position: 7px 46px;
+  }
+  /* line 141, ../../../components/compare_selector/_styles.sass */
+  .compare-selector .visuals {
+    height: 100px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+    _height: 100px;
+  }
+  /* line 144, ../../../components/compare_selector/_styles.sass */
+  .compare-selector .visuals img {
+    height: 100px;
+  }
+  /* line 148, ../../../components/compare_selector/_styles.sass */
+  .compare-selector li.empty .visuals {
+    width: 65px;
+  }
+  /* line 57, ../../../components/contact/_styles.sass */
+  .contact .contact-info {
+    padding-top: 1em;
+  }
+  /* line 61, ../../../components/contact/_styles.sass */
+  .contact .contact-info .contact-address .main-office {
+    margin-top: 0em;
+    width: 66.66667%;
+  }
+  /* line 65, ../../../components/contact/_styles.sass */
+  .contact .contact-info .contact-address ul.location-list {
+    padding: 2em 0 0;
+    margin: 0 -0.5em;
+    clear: both;
+    zoom: 1;
+  }
+  /* line 174, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .contact .contact-info .contact-address ul.location-list:before, .contact .contact-info .contact-address ul.location-list:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+  /* line 179, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .contact .contact-info .contact-address ul.location-list:after {
+    clear: both;
+  }
+  /* line 71, ../../../components/contact/_styles.sass */
+  .contact .contact-info .contact-address ul.location-list li {
+    width: 33.33333%;
+    margin-bottom: 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .contact .contact-info .contact-address ul.location-list li {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .contact .contact-info .contact-address ul.location-list li {
+    float: right;
+  }
+  /* line 76, ../../../components/contact/_styles.sass */
+  .contact .contact-info .contact-address ul.location-list li address {
+    margin: 0 0.5em;
+  }
+  /* line 80, ../../../components/contact/_styles.sass */
+  .contact .contact-info .contact-address.nokia-office-map .map {
+    width: 66.66667%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .contact .contact-info .contact-address.nokia-office-map .map {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .contact .contact-info .contact-address.nokia-office-map .map {
+    float: right;
+  }
+  /* line 84, ../../../components/contact/_styles.sass */
+  .contact .contact-info .contact-address.nokia-office-map .main-office {
+    width: 31%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .contact .contact-info .contact-address.nokia-office-map .main-office {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .contact .contact-info .contact-address.nokia-office-map .main-office {
+    float: right;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .contact .contact-info .contact-address.nokia-office-map .main-office {
+    padding-left: 1em;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .contact .contact-info .contact-address.nokia-office-map .main-office {
+    padding-right: 1em;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .form h2, body.ltr
+  .form p.description {
+    padding-right: 50%;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .form h2, body.rtl
+  .form p.description {
+    padding-left: 50%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .form form fieldset.wrapper p {
+    padding-right: 25%;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .form form fieldset.wrapper p {
+    padding-left: 25%;
+  }
+  /* line 284, ../../../components/form/_styles.sass */
+  .form form fieldset.wrapper p.required {
+    margin: 1em 0 3em;
+  }
+  /* line 287, ../../../components/form/_styles.sass */
+  .form form fieldset.wrapper label {
+    width: 50%;
+  }
+  /* line 290, ../../../components/form/_styles.sass */
+  .form form fieldset.wrapper label.checkbox {
+    width: 70%;
+  }
+  /* line 295, ../../../components/form/_styles.sass */
+  .form form fieldset.wrapper label.text span input[type="text"],
+  .form form fieldset.wrapper label.text span textarea {
+    width: 93%;
+  }
+  /* line 299, ../../../components/form/_styles.sass */
+  .form form fieldset.wrapper .actions {
+    margin-top: 0em;
+    width: 50%;
+  }
+  /* line 306, ../../../components/form/_styles.sass */
+  .form form fieldset.wrapper .note {
+    width: 140%;
+  }
+  /* line 310, ../../../components/form/_styles.sass */
+  .form form .article-text .wrapper {
+    width: 75%;
+  }
+  /* line 244, ../../../components/content_block/_styles.sass */
+  .content-block .visuals .moving-images video,
+  .content-block .visuals .moving-images img,
+  .content-block .visuals .images video,
+  .content-block .visuals .images img {
+    height: 352px;
+  }
+  /* line 248, ../../../components/content_block/_styles.sass */
+  .content-block .slideshow-posters {
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    padding: 0;
+    margin: 0 2em 0em 2em;
+    border: none;
+    zoom: 1;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .content-block .slideshow-posters {
+    left: 50%;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .content-block .slideshow-posters {
+    right: 50%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .content-block .slideshow-posters {
+    text-align: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .content-block .slideshow-posters {
+    text-align: right;
+  }
+  /* line 174, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .content-block .slideshow-posters:before, .content-block .slideshow-posters:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+  /* line 179, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .content-block .slideshow-posters:after {
+    clear: both;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .content-block .slideshow-posters .poster {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .content-block .slideshow-posters .poster {
+    float: right;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .content-block .slideshow-posters .poster {
+    margin: 0 0.5em 1em 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .content-block .slideshow-posters .poster {
+    margin: 0 0 1em 0.5em;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .content-block.text-top-left .slideshow-posters {
+    left: 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .content-block.text-top-left .slideshow-posters {
+    right: 0;
+  }
+  /* line 369, ../../../components/content_block/_styles.sass */
+  .content-block.text-bottom-left header {
+    top: auto;
+    bottom: 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .content-block.text-bottom-left header {
+    left: 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .content-block.text-bottom-left header {
+    right: 0;
+  }
+  /* line 377, ../../../components/content_block/_styles.sass */
+  .content-block.text-bottom-left .slideshow-posters {
+    top: 2em;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .content-block.text-bottom-left .slideshow-posters {
+    left: 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .content-block.text-bottom-left .slideshow-posters {
+    right: 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .content-block.text-middle-left .slideshow-posters, body.ltr .content-block.text-bottom-left .slideshow-posters, body.ltr .content-block.text-top-left .slideshow-posters {
+    left: 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .content-block.text-middle-left .slideshow-posters, body.rtl .content-block.text-bottom-left .slideshow-posters, body.rtl .content-block.text-top-left .slideshow-posters {
+    right: 0;
+  }
+  /* line 59, ../../../components/country_list/_styles.sass */
+  .country-list ul.country-container li {
+    width: 24.4%;
+  }
+  /* line 169, ../../../components/hero_area_slideshow/_styles.sass */
+  .hero-area-slideshow .caption {
+    height: 22em;
+  }
+  /* line 172, ../../../components/hero_area_slideshow/_styles.sass */
+  .hero-area-slideshow a p {
+    margin: 2em 3.5em 1.25em 3.5em;
+  }
+  /* line 175, ../../../components/hero_area_slideshow/_styles.sass */
+  .hero-area-slideshow .headline {
+    font-size: 3em;
+  }
+  /* line 45, ../../../components/hero_area_story/_styles.sass */
+  .hero-area-story .content-wrapper {
+    padding: 2em;
+  }
+  /* line 48, ../../../components/hero_area_story/_styles.sass */
+  .hero-area-story .headline {
+    margin: 0.325em 0 1.125em 0;
+    font-size: 2em;
+    line-height: 0.8em;
+  }
+  /* line 53, ../../../components/hero_area_story/_styles.sass */
+  .hero-area-story .sub-headline {
+    margin: 0 1em 0.625em 1em;
+    font-size: 3.75em;
+    line-height: 0.8em;
+  }
+  /* line 58, ../../../components/hero_area_story/_styles.sass */
+  .hero-area-story p {
+    margin: 0 0 2em 0;
+    padding: 0 25%;
+    font-size: 1em;
+  }
+  /* line 96, ../../../components/highlight_hero/_styles.sass */
+  .highlight-hero .caption {
+    height: 22em;
+  }
+  /* line 99, ../../../components/highlight_hero/_styles.sass */
+  .highlight-hero a p {
+    margin: 2em 0.5em 1.25em 0.5em;
+  }
+  /* line 102, ../../../components/highlight_hero/_styles.sass */
+  .highlight-hero .headline {
+    font-size: 3em;
+  }
+  /* line 31, ../../../components/iframe/_styles.sass */
+  .iframe.show-from-tablet-portrait iframe {
+    display: block;
+  }
+  /* line 34, ../../../components/iframe/_styles.sass */
+  .iframe.show-from-tablet-portrait a.iframe-source {
+    display: none;
+  }
+  /* line 24, ../../../components/imei_status_check/_styles.sass */
+  .imei_status_check .article-text {
+    width: 75%;
+  }
+  /* line 48, ../../../components/offers_filters/_styles.sass */
+  .offers-filters .responsive-figure img {
+    margin-left: -20px;
+  }
+  /* line 3, ../../../components/page_actions/_styles.sass */
+  .page-actions-wrapper {
+    padding: 0;
+    position: absolute;
+    top: 0.25em;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .page-actions-wrapper {
+    right: 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .page-actions-wrapper {
+    left: 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .page-actions-wrapper .product-link {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .page-actions-wrapper .product-link {
+    float: left;
+  }
+  /* line 50, ../../../components/page_actions/_styles.sass */
+  .page-actions-wrapper .enh-select,
+  .page-actions-wrapper .product-link {
+    width: auto;
+  }
+  /* line 54, ../../../components/page_actions/_styles.sass */
+  .page-header .page-actions-wrapper {
+    padding: 0 0 0.75em 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .page-header .page-actions-wrapper {
+    right: 0.75em;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .page-header .page-actions-wrapper {
+    left: 0.75em;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .page-actions-wrapper .enh-select-trigger span {
+    margin: 0;
+    background: none !important;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .page-actions-wrapper .enh-select-trigger span {
+    margin-left: 0;
+    background: none !important;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .page-actions-wrapper strong {
+    background: url(../images/layout/icons/arrow_filters_down.png?v=14.476) no-repeat right center;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .page-actions-wrapper strong {
+    background: url(../images/layout/icons/arrow_filters_down.png?v=14.476) no-repeat left center;
+  }
+  /* line 76, ../../../components/page_actions/_styles.sass */
+  .product-hero-area .page-actions-wrapper {
+    display: block;
+  }
+  /* line 83, ../../../components/page_actions/_styles.sass */
+  body.new-product-page .page-actions-wrapper {
+    position: relative;
+    top: auto;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr body.new-product-page .page-actions-wrapper {
+    right: auto;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl body.new-product-page .page-actions-wrapper {
+    left: auto;
+  }
+  /* line 92, ../../../components/page_actions/_styles.sass */
+  .page-actions {
+    display: block;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .page-header .headline {
+    margin-right: 40%;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .page-header .headline {
+    margin-left: 40%;
+  }
+  /* line 101, ../../../components/pagination/_styles.sass */
+  .pagination .wrapper {
+    background: transparent;
+  }
+  /* line 104, ../../../components/pagination/_styles.sass */
+  .pagination li {
+    display: inline;
+    padding: 0.6em 0.5em;
+    background-color: white;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .pagination li {
+    margin: 0 0.25em 0 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .pagination li {
+    margin: 0 0 0 0.25em;
+  }
+  /* line 113, ../../../components/pagination/_styles.sass */
+  .pagination li a,
+  .pagination li strong {
+    font-weight: 700;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .pagination li a, body.ltr
+  .pagination li strong {
+    padding: 0 0.5em 0 0.65em;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .pagination li a, body.rtl
+  .pagination li strong {
+    padding: 0 0.65em 0 0.5em;
+  }
+  /* line 121, ../../../components/pagination/_styles.sass */
+  .pagination li.prev, .pagination li.next {
+    float: none;
+    display: inline;
+    margin: 0;
+    padding: 0.6em 0;
+  }
+  /* line 128, ../../../components/pagination/_styles.sass */
+  .pagination li.prev a, .pagination li.next a {
+    font-weight: 300;
+    color: #333333;
+    width: auto;
+    height: auto;
+    display: inline;
+    background: none;
+    text-indent: 0;
+    border: none;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .pagination li.prev a, body.ltr .pagination li.next a {
+    padding: 0 0.5em;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .pagination li.prev a, body.rtl .pagination li.next a {
+    padding: 0 0.5em;
+  }
+  /* line 142, ../../../components/pagination/_styles.sass */
+  .pagination li.prev a:hover, .pagination li.next a:hover {
+    color: #1ba1e2;
+  }
+  /* line 182, ../../../components/pricepoint/_styles.sass */
+  .pricepoint .availability ul li,
+  .pricepoint .price-information ul li {
+    width: 8.75em;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .pricepoint .availability ul li, body.ltr
+  .pricepoint .price-information ul li {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .pricepoint .availability ul li, body.rtl
+  .pricepoint .price-information ul li {
+    float: right;
+  }
+  /* line 186, ../../../components/pricepoint/_styles.sass */
+  .pricepoint .availability ul li span.spacer,
+  .pricepoint .price-information ul li span.spacer {
+    display: none;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .pricepoint .buy {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .pricepoint .buy {
+    float: right;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .pricepoint .buy {
+    text-align: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .pricepoint .buy {
+    text-align: right;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .pricepoint .change-country, body.ltr
+  .pricepoint .disclaimer {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .pricepoint .change-country, body.rtl
+  .pricepoint .disclaimer {
+    float: left;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .pricepoint .change-country, body.ltr
+  .pricepoint .disclaimer {
+    text-align: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .pricepoint .change-country, body.rtl
+  .pricepoint .disclaimer {
+    text-align: left;
+  }
+  /* line 250, ../../../components/product_hero_area/_styles.sass */
+  .product-hero-area .arrow-controls {
+    display: none;
+  }
+  /* line 253, ../../../components/product_hero_area/_styles.sass */
+  .product-hero-area .controls {
+    display: block;
+  }
+  /* line 75, ../../../components/product_specification_snapshot/_styles.sass */
+  .product-specification-snapshot ul.three li {
+    width: 33.33333%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .product-specification-snapshot ul.three li {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .product-specification-snapshot ul.three li {
+    float: right;
+  }
+  /* line 96, ../../../components/product_specification_snapshot/_styles.sass */
+  .product-specification-snapshot ul.four li {
+    width: 351px;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .progress-bar .current_state {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .progress-bar .current_state {
+    float: right;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .progress-bar .progress {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .progress-bar .progress {
+    float: left;
+  }
+  /* line 113, ../../../components/rating_review/_styles.sass */
+  .review-overview .write-review {
+    width: 22%;
+    padding: 0 0 0 2em;
+    border-top: none;
+    border-left: 1px solid #d6d6d6;
+    clear: none;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .review-overview .write-review {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .review-overview .write-review {
+    float: left;
+  }
+  /* line 121, ../../../components/rating_review/_styles.sass */
+  .review-overview #BVRRSummaryContainer {
+    width: 37%;
+    padding: 0 2em;
+  }
+  /* line 40, ../../../components/repair_delivery_methods/_styles.sass */
+  .repair-delivery-methods form.delivery-method-form .enh-select {
+    width: 50%;
+  }
+  /* line 216, ../../../components/search_results/_styles.sass */
+  .search-results ul li ul.links {
+    width: 70%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .search-results ul li ul.links {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .search-results ul li ul.links {
+    float: left;
+  }
+  /* line 220, ../../../components/search_results/_styles.sass */
+  .search-results .primary {
+    margin-bottom: 0;
+  }
+  /* line 226, ../../../components/search_results/_styles.sass */
+  .search-results .primary > ul > li figure {
+    width: 25%;
+    padding: 0;
+  }
+  /* line 231, ../../../components/search_results/_styles.sass */
+  .search-results .secondary span.category {
+    font-size: 1em;
+  }
+  /* line 237, ../../../components/search_results/_styles.sass */
+  .search-results .secondary > ul > li span.category {
+    margin-bottom: 0.75em;
+  }
+  /* line 101, ../../../components/site_navigation/_styles.sass */
+  .site-navigation.bottom {
+    display: none;
+  }
+  /* line 108, ../../../components/site_navigation/_styles.sass */
+  #site-navigation-top {
+    display: block;
+    width: auto;
+    height: auto !important;
+    padding: 0 0 0 1.25em;
+    clear: none;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl #site-navigation-top {
+    padding: 0 1.25em 0 0;
+  }
+  /* line 176, ../../../components/site_navigation/_styles.sass */
+  #site-navigation-top .site-navigation {
+    background: transparent;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr #site-navigation-top a.page-link {
+    margin-right: 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl #site-navigation-top a.page-link {
+    margin-left: 0;
+  }
+  /* line 185, ../../../components/site_navigation/_styles.sass */
+  #site-navigation-top a.toggle-children {
+    display: none;
+  }
+  /* line 188, ../../../components/site_navigation/_styles.sass */
+  #site-navigation-top a {
+    color: white;
+    padding: 16px 1.25em 17px 1.25em;
+  }
+  /* line 192, ../../../components/site_navigation/_styles.sass */
+  #site-navigation-top a:hover, #site-navigation-top a:focus, #site-navigation-top a:active {
+    color: #124191;
+    background: white;
+  }
+  /* line 198, ../../../components/site_navigation/_styles.sass */
+  #site-navigation-top ul {
+    padding: 0;
+    font-size: 0.875em;
+  }
+  /* line 202, ../../../components/site_navigation/_styles.sass */
+  #site-navigation-top ul li {
+    border-bottom: none;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr #site-navigation-top ul li {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl #site-navigation-top ul li {
+    float: right;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr #site-navigation-top ul li.active a.page-link {
+    background: white;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl #site-navigation-top ul li.active a.page-link {
+    background: white;
+  }
+  /* line 213, ../../../components/site_navigation/_styles.sass */
+  #site-navigation-top ul li h1 {
+    background-image: none;
+  }
+  /* line 216, ../../../components/site_navigation/_styles.sass */
+  #site-navigation-top ul li.active a {
+    color: #124191;
+    background: white;
+  }
+  /* line 220, ../../../components/site_navigation/_styles.sass */
+  #site-navigation-top ul li ul {
+    display: none;
+  }
+  /* line 120, ../../../components/standalone_slideshow/_styles.sass */
+  .standalone-slideshow .slides div img {
+    max-height: 23.5em;
+  }
+  /* line 221, ../../../components/specifications_snapshot/_styles.sass */
+  body.new-product-page .specifications-snapshot ul.info {
+    position: absolute;
+  }
+  /* line 14, ../../../components/sub_navigation/_styles.sass */
+  .sub-navigation {
+    display: block;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .video .content-wrapper > p, body.ltr .video .content-wrapper > h2, body.ltr .video .content-wrapper > h3, body.ltr .video .content-wrapper > ul, body.ltr .video .content-wrapper > ol {
+    padding-right: 17.5%;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .video .content-wrapper > p, body.rtl .video .content-wrapper > h2, body.rtl .video .content-wrapper > h3, body.rtl .video .content-wrapper > ul, body.rtl .video .content-wrapper > ol {
+    padding-left: 17.5%;
+  }
+  /* line 137, ../../../components/video_slide/_styles.sass */
+  .video-slide .videos_wrapper .single a.youtube-link {
+    margin-top: -25%;
+    margin-bottom: -25%;
+  }
+  /* line 36, ../../../components/text_block/_styles.sass */
+  .text-block ul.text-block-list {
+    padding-bottom: 1.5em;
+  }
+  /* line 39, ../../../components/text_block/_styles.sass */
+  .text-block h2 {
+    padding-top: 1.5em;
+  }
+}
+@media screen and (min-width: 1024px){
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .readability {
+    padding-right: 25%;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .readability {
+    padding-left: 25%;
+  }
+  /* line 575, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/base/_typography.sass */
+  ul.grid-list .visuals img {
+    width: 60%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr #footer a.logo {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl #footer a.logo {
+    float: right;
+  }
+  /* line 114, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_footer.sass */
+  #footer ul {
+    border: none;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr #footer ul {
+    margin: 0.65em 0 0.375em 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl #footer ul {
+    margin: 0.65em 0 0.375em 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr #footer ul li {
+    margin: 0 0 0 3em;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl #footer ul li {
+    margin: 0 3em 0 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr #footer .change-country {
+    float: right !important;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl #footer .change-country {
+    float: left !important;
+  }
+  /* line 104, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component .viewport .cover .visuals {
+    height: 500px;
+  }
+  /* line 107, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component .viewport .cover .visuals img {
+    height: 500px;
+    margin-left: -625px;
+  }
+  /* line 114, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component.hero-area-story .viewport .cover .visuals {
+    height: 500px;
+  }
+  /* line 117, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component.hero-area-story .viewport .cover .visuals img {
+    height: 500px;
+    margin-left: -625px;
+  }
+  /* line 186, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component.overlay-content .viewport .cover .wrapper,
+  .full-bleed-component.overlay-content .viewport .cover .caption {
+    height: 500px;
+  }
+  /* line 97, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_header.sass */
+  #masthead a.go-to-search {
+    display: none;
+  }
+  /* line 100, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_header.sass */
+  #masthead .wrapper {
+    width: 944px;
+    margin: 0 auto;
+  }
+  /* line 1, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_wrapper.sass */
+  .wrapper {
+    width: 944px;
+    margin: 0 auto;
+  }
+  /* line 150, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_layout.sass */
+  .article-text-page .wrapper,
+  .rich-content-page .wrapper {
+    position: relative;
+    zoom: 1;
+  }
+  /* line 174, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .article-text-page .wrapper:before, .article-text-page .wrapper:after,
+  .rich-content-page .wrapper:before,
+  .rich-content-page .wrapper:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+  /* line 179, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .article-text-page .wrapper:after,
+  .rich-content-page .wrapper:after {
+    clear: both;
+  }
+  /* line 154, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_layout.sass */
+  .article-text-page .wrapper .article-content-wrapper,
+  .rich-content-page .wrapper .article-content-wrapper {
+    width: 75%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .article-text-page .wrapper .article-content-wrapper, body.ltr
+  .rich-content-page .wrapper .article-content-wrapper {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .article-text-page .wrapper .article-content-wrapper, body.rtl
+  .rich-content-page .wrapper .article-content-wrapper {
+    float: left;
+  }
+  /* line 158, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_layout.sass */
+  .article-text-page .wrapper aside,
+  .rich-content-page .wrapper aside {
+    width: 25%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .article-text-page .wrapper aside, body.ltr
+  .rich-content-page .wrapper aside {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .article-text-page .wrapper aside, body.rtl
+  .rich-content-page .wrapper aside {
+    float: right;
+  }
+  /* line 5, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_site_search.sass */
+  .site-search {
+    width: 14em;
+  }
+  /* line 157, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_site_search.sass */
+  .site-search input.search {
+    width: 13em;
+  }
+  /* line 1, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_default_site_search.sass */
+  .default-site-search {
+    display: none;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .article-list div.content-wrapper {
+    margin-left: 25%;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .article-list div.content-wrapper {
+    margin-right: 25%;
+  }
+  /* line 170, ../../../components/article_section/_styles.sass */
+  .article-section .responsive-figure img {
+    margin-left: 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .article-text .content-wrapper {
+    margin-left: 25%;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .article-text .content-wrapper {
+    margin-right: 25%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .article-text .intro-section p {
+    padding-right: 17.5%;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .article-text .intro-section p {
+    padding-left: 17.5%;
+  }
+  /* line 57, ../../../components/aside_sub_navigation/_styles.sass */
+  .aside-sub-navigation .wrapper {
+    width: auto;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .aside-sub-navigation .wrapper {
+    margin: 0 1.5em 0 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .aside-sub-navigation .wrapper {
+    margin: 0 0 0 1.5em;
+  }
+  /* line 64, ../../../components/aside_sub_navigation/_styles.sass */
+  .aside-sub-navigation nav {
+    margin-top: -0.75em;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .aside-sub-navigation nav {
+    padding: 0 1em 0 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .aside-sub-navigation nav {
+    padding: 0 0 0 1em;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .aside-sub-navigation ul {
+    margin: 0 0 0 -0.5em;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .aside-sub-navigation ul {
+    margin: 0 -0.5em 0 0;
+  }
+  /* line 78, ../../../components/aside_sub_navigation/_styles.sass */
+  body.js .aside-sub-navigation#aside-sub-navigation {
+    display: block;
+  }
+  /* line 8, ../../../components/aside_sub_navigation_anchor/_styles.sass */
+  .aside-sub-navigation-anchor {
+    display: none;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .badge-of-honor .headline {
+    margin: 0.875em 5em 0.125em 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .badge-of-honor .headline {
+    margin: 0.875em 0 0.125em 5em;
+  }
+  /* line 336, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .controls {
+    width: 780px;
+  }
+  /* line 339, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .controls .wrapper,
+  .benefit-block .controls a,
+  .benefit-block .controls .cover .content-wrapper,
+  .benefit-block .controls .cover .visuals,
+  .benefit-block .controls .caption {
+    width: 244px !important;
+    height: 110px !important;
+  }
+  /* line 426, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .cover.shout-out .headline {
+    font-size: 6.25em;
+  }
+  /* line 533, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .cover.shout-out.light-text .caption-content {
+    padding: 0 20%;
+  }
+  /* line 180, ../../../components/catalog/_styles.sass */
+  .catalog ul li {
+    width: 25%;
+  }
+  /* line 186, ../../../components/catalog/_styles.sass */
+  .catalog.over-four ul li.fourth {
+    display: block;
+  }
+  /* line 144, ../../../components/catalog_accessories/_styles.sass */
+  .catalog-accessories ul li {
+    width: 33.33333%;
+  }
+  /* line 147, ../../../components/catalog_accessories/_styles.sass */
+  .catalog-accessories ul li.third {
+    clear: none;
+  }
+  /* line 150, ../../../components/catalog_accessories/_styles.sass */
+  .catalog-accessories ul li.fourth {
+    clear: left;
+  }
+  /* line 152, ../../../components/compare_selector/_styles.sass */
+  .compare-selector .phone-list,
+  .compare-selector li {
+    height: 100px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+    _height: 100px;
+  }
+  /* line 157, ../../../components/compare_selector/_styles.sass */
+  .compare-selector li span {
+    display: inline;
+    line-height: 100px;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .compare-selector a.remove {
+    right: -16px;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .compare-selector a.remove {
+    left: -16px;
+  }
+  /* line 93, ../../../components/contact/_styles.sass */
+  .contact .contact-info {
+    overflow: hidden;
+  }
+  /* line 96, ../../../components/contact/_styles.sass */
+  .contact .contact-info .location-filter {
+    width: 25%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .contact .contact-info .location-filter {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .contact .contact-info .location-filter {
+    float: right;
+  }
+  /* line 101, ../../../components/contact/_styles.sass */
+  .contact .contact-info .location-filter form label {
+    width: 100%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .contact .contact-info .location-filter form label .enh-select {
+    margin-right: 1em;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .contact .contact-info .location-filter form label .enh-select {
+    margin-left: 1em;
+  }
+  /* line 110, ../../../components/contact/_styles.sass */
+  .contact .contact-info .contact-address {
+    width: 75%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .contact .contact-info .contact-address {
+    float: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .contact .contact-info .contact-address {
+    float: left;
+  }
+  /* line 315, ../../../components/form/_styles.sass */
+  .form h2 {
+    border-top: 1px solid #dfdfdf;
+    margin-bottom: 1.5em;
+    margin-top: 0em;
+    padding-top: 1.5em;
+  }
+  /* line 325, ../../../components/form/_styles.sass */
+  .form form fieldset.wrapper label.text span input[type="text"],
+  .form form fieldset.wrapper label.text span textarea {
+    width: 95%;
+  }
+  /* line 329, ../../../components/form/_styles.sass */
+  .form form fieldset.wrapper label.file,
+  .form form fieldset.wrapper .input-file-wrapper {
+    display: block;
+  }
+  /* line 271, ../../../components/content_block/_styles.sass */
+  .content-block .caption p {
+    font-size: 1em;
+  }
+  /* line 274, ../../../components/content_block/_styles.sass */
+  .content-block .visuals {
+    display: block;
+    overflow: hidden;
+    position: relative;
+  }
+  /* line 281, ../../../components/content_block/_styles.sass */
+  .content-block .visuals .moving-images video,
+  .content-block .visuals .moving-images img,
+  .content-block .visuals .images video,
+  .content-block .visuals .images img {
+    height: 472px;
+  }
+  /* line 287, ../../../components/content_block/_styles.sass */
+  .content-block .visuals .slideshow-posters .poster a {
+    width: 142px;
+    height: auto;
+  }
+  /* line 291, ../../../components/content_block/_styles.sass */
+  .content-block .visuals .slideshow-posters .yt-thumb {
+    margin: -14px 0;
+  }
+  /* line 315, ../../../components/content_block/_styles.sass */
+  .content-block.full-bleed-light-text header, .content-block.full-bleed-dark-text header {
+    height: 29.5em;
+    position: absolute;
+  }
+  /* line 319, ../../../components/content_block/_styles.sass */
+  .content-block.full-bleed-light-text .caption, .content-block.full-bleed-dark-text .caption {
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    bottom: 2.25em;
+    left: 0;
+  }
+  /* line 327, ../../../components/content_block/_styles.sass */
+  .content-block.full-bleed-light-text .caption p, .content-block.full-bleed-dark-text .caption p {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 0.875em;
+  }
+  /* line 334, ../../../components/content_block/_styles.sass */
+  .content-block.full-bleed-light-text .headline,
+  .content-block.full-bleed-light-text .caption p {
+    color: white;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr #cookie-notification p {
+    margin: 0 0 0 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl #cookie-notification p {
+    margin: 0 0 0 0;
+  }
+  /* line 64, ../../../components/country_list/_styles.sass */
+  .country-list ul.country-container li {
+    width: 19.6%;
+  }
+  /* line 188, ../../../components/feature_tiles_small/_styles.sass */
+  .feature-tiles-small ul li {
+    width: 25%;
+  }
+  /* line 191, ../../../components/feature_tiles_small/_styles.sass */
+  .feature-tiles-small ul li:nth-child(2n+1), .feature-tiles-small ul li:nth-child(3n+4) {
+    clear: none;
+  }
+  /* line 195, ../../../components/feature_tiles_small/_styles.sass */
+  .feature-tiles-small ul li:nth-child(4n+5) {
+    clear: left;
+  }
+  /* line 83, ../../../components/hero_area/_styles.sass */
+  .hero-area .caption {
+    position: absolute;
+    width: 50%;
+    bottom: 4em;
+    background: transparent;
+  }
+  /* line 89, ../../../components/hero_area/_styles.sass */
+  .hero-area .caption-content {
+    padding: 1em;
+    background: transparent url(../images/layout/backgrounds/white_90.png?v=14.476);
+    background: rgba(255, 255, 255, 0.9);
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .hero-area .caption-content {
+    margin: 0 1.25em 0 0;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .hero-area .caption-content {
+    margin: 0 0 0 1.25em;
+  }
+  /* line 97, ../../../components/hero_area/_styles.sass */
+  .hero-area .headline {
+    margin: 0 0 0.25em 0;
+  }
+  /* line 100, ../../../components/hero_area/_styles.sass */
+  .hero-area p {
+    margin: 0;
+  }
+  /* line 179, ../../../components/hero_area_slideshow/_styles.sass */
+  .hero-area-slideshow .caption {
+    height: 29.5em;
+  }
+  /* line 181, ../../../components/hero_area_slideshow/_styles.sass */
+  .hero-area-slideshow .headline {
+    font-size: 3.75em;
+  }
+  /* line 107, ../../../components/highlight_hero/_styles.sass */
+  .highlight-hero .caption {
+    height: 29.5em;
+  }
+  /* line 110, ../../../components/highlight_hero/_styles.sass */
+  .highlight-hero .headline {
+    font-size: 3.75em;
+  }
+  /* line 77, ../../../components/highlight_tiles/_styles.sass */
+  .highlight-tiles a {
+    height: 300px;
+  }
+  /* line 80, ../../../components/highlight_tiles/_styles.sass */
+  .highlight-tiles .caption {
+    padding-bottom: 1em;
+    height: 5.5em;
+  }
+  /* line 38, ../../../components/iframe/_styles.sass */
+  .iframe .content-wrapper {
+    margin-left: 25%;
+  }
+  /* line 436, ../../../components/navigation_tiles/_styles.sass */
+  .navigation-tiles ul li {
+    width: 25%;
+  }
+  /* line 439, ../../../components/navigation_tiles/_styles.sass */
+  .navigation-tiles .caption {
+    padding-bottom: 1em;
+    height: 5.5em;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .navigation-tiles .offers-tile img {
+    left: -1em;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .navigation-tiles .offers-tile img {
+    right: -1em;
+  }
+  /* line 450, ../../../components/navigation_tiles/_styles.sass */
+  .navigation-tiles .offers-tile .caption {
+    vertical-align: bottom;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .navigation-tiles .offers-tile .caption {
+    text-align: right;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .navigation-tiles .offers-tile .caption {
+    text-align: left;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .navigation-tiles .offers-tile .caption h3, body.ltr .navigation-tiles .offers-tile .caption .type, body.ltr .navigation-tiles .offers-tile .caption .price, body.ltr .navigation-tiles .offers-tile .caption .operation-logo {
+    padding-left: 50%;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .navigation-tiles .offers-tile .caption h3, body.rtl .navigation-tiles .offers-tile .caption .type, body.rtl .navigation-tiles .offers-tile .caption .price, body.rtl .navigation-tiles .offers-tile .caption .operation-logo {
+    padding-right: 50%;
+  }
+  /* line 487, ../../../components/navigation_tiles/_styles.sass */
+  body.ltr.long-prices .offers-tile .caption p.price, body.ltr.long-prices .offers-tile .caption .price, body.ltr.long-prices .offers-tile .caption .long-price {
+    margin-left: 0;
+  }
+  /* line 509, ../../../components/navigation_tiles/_styles.sass */
+  body.rtl.long-prices .offers-tile .caption p.price, body.rtl.long-prices .offers-tile .caption .price, body.rtl.long-prices .offers-tile .caption .long-price {
+    margin-right: 0;
+  }
+  /* line 52, ../../../components/offers_filters/_styles.sass */
+  .offers-filters .responsive-figure img {
+    margin-left: 0;
+  }
+  /* line 85, ../../../components/offers_filters/_styles.sass */
+  .offers-filters .content-wrapper {
+    padding-bottom: 0;
+  }
+  /* line 129, ../../../components/offers_filters/_styles.sass */
+  .offers-filters form {
+    border-bottom: 1px solid #e3e3e3;
+  }
+  /* line 291, ../../../components/offers_filters/_styles.sass */
+  .offers-filters form ul.categories {
+    padding-top: 1em;
+    margin-top: 0;
+    font-size: 1em;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .offers-filters form ul.categories {
+    margin-bottom: 1em;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .offers-filters form ul.categories {
+    margin-bottom: 1em;
+  }
+  /* line 300, ../../../components/offers_filters/_styles.sass */
+  .offers-filters form li.category {
+    width: 50%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .offers-filters form li.category {
+    float: left;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .offers-filters form li.category {
+    float: right;
+  }
+  /* line 305, ../../../components/offers_filters/_styles.sass */
+  .offers-filters form li.category:first-child a.enh-toggle {
+    border: none;
+  }
+  /* line 308, ../../../components/offers_filters/_styles.sass */
+  .offers-filters form li.category:nth-child(2n+1) {
+    clear: left;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .offers-filters form span.category-headline {
+    padding-left: 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .offers-filters form span.category-headline {
+    padding-right: 0;
+  }
+  /* line 320, ../../../components/offers_filters/_styles.sass */
+  .offers-filters form a.enh-toggle {
+    font-size: 0.875em;
+    color: #333333;
+    border: none;
+    padding: 0;
+  }
+  /* line 326, ../../../components/offers_filters/_styles.sass */
+  .offers-filters form a.enh-toggle.enh-toggle-active {
+    background: none;
+    border: none;
+  }
+  /* line 330, ../../../components/offers_filters/_styles.sass */
+  .offers-filters form a.enh-toggle span {
+    display: none;
+  }
+  /* line 333, ../../../components/offers_filters/_styles.sass */
+  .offers-filters form .category-filters {
+    height: auto !important;
+    margin-bottom: 0;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .offers-filters form .category-filters {
+    margin: 0 0.8em 0 0.125em;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .offers-filters form .category-filters {
+    margin: 0 0.125em 0 0.8em;
+  }
+  /* line 341, ../../../components/offers_filters/_styles.sass */
+  .offers-filters form .category-filters.select {
+    font-size: 0.75em;
+    padding: 0.5em 0;
+  }
+  /* line 345, ../../../components/offers_filters/_styles.sass */
+  .offers-filters form .category-filters > li {
+    width: 100%;
+    padding: 0;
+  }
+  /* line 349, ../../../components/offers_filters/_styles.sass */
+  .offers-filters form .category-filters > li:first-child {
+    padding-top: 0.5em;
+  }
+  /* line 352, ../../../components/offers_filters/_styles.sass */
+  .offers-filters form .category-filters > li:last-child {
+    border: none;
+    padding-bottom: 0.5em;
+  }
+  /* line 356, ../../../components/offers_filters/_styles.sass */
+  .offers-filters form .category-filters > li strong {
+    font-size: 0.875em;
+  }
+  /* line 359, ../../../components/offers_filters/_styles.sass */
+  .offers-filters form label {
+    padding: 0.25em 0;
+    text-align: left;
+    background: transparent;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .offers-filters form label strong {
+    float: right;
+  }
+  /* line 368, ../../../components/offers_filters/_styles.sass */
+  .offers-filters form label span {
+    display: block;
+  }
+  /* line 372, ../../../components/offers_filters/_styles.sass */
+  .offers-filters form li.category {
+    width: 25%;
+  }
+  /* line 375, ../../../components/offers_filters/_styles.sass */
+  .offers-filters form li.category.backup {
+    display: none;
+  }
+  /* line 378, ../../../components/offers_filters/_styles.sass */
+  .offers-filters form li.category:nth-child(2n+1) {
+    clear: none;
+  }
+  /* line 6, ../../../components/offers_list/_styles.sass */
+  .offers-list {
+    display: none;
+  }
+  /* line 279, ../../../components/offers_list/_styles.sass */
+  .offers-list.show-to-all-devices {
+    display: block;
+  }
+  /* line 282, ../../../components/offers_list/_styles.sass */
+  .offers-list.show-to-all-devices .list {
+    width: 33.33333%;
+  }
+  /* line 286, ../../../components/offers_list/_styles.sass */
+  .offers-list.show-to-all-devices ul.two {
+    zoom: 1;
+  }
+  /* line 174, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .offers-list.show-to-all-devices ul.two:before, .offers-list.show-to-all-devices ul.two:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+  /* line 179, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .offers-list.show-to-all-devices ul.two:after {
+    clear: both;
+  }
+  /* line 289, ../../../components/offers_list/_styles.sass */
+  .offers-list.show-to-all-devices ul.two li {
+    width: 100%;
+  }
+  /* line 292, ../../../components/offers_list/_styles.sass */
+  .offers-list.show-to-all-devices ul.two li:first-child {
+    display: none;
+  }
+  /* line 296, ../../../components/offers_list/_styles.sass */
+  .offers-list.show-to-all-devices ul.two li:nth-child(2) a {
+    border: none;
+  }
+  /* line 10, ../../../components/offers_table/_styles.sass */
+  .offers-table {
+    display: block;
+  }
+  /* line 257, ../../../components/product_hero_area/_styles.sass */
+  .product-hero-area .section-header {
+    margin-top: 3em;
+  }
+  /* line 260, ../../../components/product_hero_area/_styles.sass */
+  .product-hero-area .headline {
+    font-size: 2.25em;
+    padding-top: 0.3em;
+  }
+  /* line 335, ../../../components/product_selector/_styles.sass */
+  .product-selector ul.view-all-phones-list li {
+    width: 14.28571%;
+  }
+  /* line 341, ../../../components/product_selector/_styles.sass */
+  body.js .product-selector.product-selected .content .info {
+    width: 60%;
+    padding: 0 0 1em 0;
+  }
+  /* line 100, ../../../components/product_specification_snapshot/_styles.sass */
+  .product-specification-snapshot ul.four li {
+    width: 235px;
+  }
+  /* line 103, ../../../components/product_specification_snapshot/_styles.sass */
+  .product-specification-snapshot ul.four img {
+    display: block;
+    margin: 0 auto 0.5em;
+    width: 25px;
+    float: none;
+  }
+  /* line 309, ../../../components/rating_review/_styles.sass */
+  #BVSubmissionContainer .BVSectionAuthenticationInformation .BVMESeparatorText,
+  #BVSubmissionContainer .BVSectionAuthenticationAfterSignout .BVMESeparatorText {
+    clear: none;
+  }
+  /* line 241, ../../../components/search_results/_styles.sass */
+  .search-results .wrapper {
+    zoom: 1;
+  }
+  /* line 174, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .search-results .wrapper:before, .search-results .wrapper:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+  /* line 179, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/_mixins.sass */
+  .search-results .wrapper:after {
+    clear: both;
+  }
+  /* line 244, ../../../components/search_results/_styles.sass */
+  .search-results h3 {
+    border: none;
+    margin: 0.5em 0;
+    width: 20%;
+    display: inline;
+    float: left;
+  }
+  /* line 251, ../../../components/search_results/_styles.sass */
+  .search-results .secondary h3 {
+    margin: 0.12em 0;
+  }
+  /* line 255, ../../../components/search_results/_styles.sass */
+  .search-results .primary,
+  .search-results .secondary {
+    margin: 1em 0 0 0;
+    padding: 2em 0 0 0;
+    border-top: 1px solid #e3e3e3;
+  }
+  /* line 261, ../../../components/search_results/_styles.sass */
+  .search-results .primary > ul,
+  .search-results .secondary > ul {
+    width: 75%;
+    display: inline;
+    float: right;
+  }
+  /* line 265, ../../../components/search_results/_styles.sass */
+  .search-results .primary > ul > li,
+  .search-results .secondary > ul > li {
+    padding: 2em 0;
+  }
+  /* line 268, ../../../components/search_results/_styles.sass */
+  .search-results .primary > ul > li:first-child,
+  .search-results .secondary > ul > li:first-child {
+    padding-top: 0.5em;
+  }
+  /* line 124, ../../../components/standalone_slideshow/_styles.sass */
+  .standalone-slideshow .slides div img {
+    max-height: 32em;
+  }
+  /* line 127, ../../../components/standalone_slideshow/_styles.sass */
+  .standalone-slideshow ul.controls img {
+    max-height: 80px;
+    height: auto;
+  }
+  /* line 130, ../../../components/standalone_slideshow/_styles.sass */
+  .standalone-slideshow ul.controls img.yt-thumb {
+    max-height: 108px;
+    height: auto;
+  }
+  /* line 174, ../../../components/specifications_snapshot/_styles.sass */
+  .specifications-snapshot ul.info {
+    width: 50%;
+  }
+  /* line 177, ../../../components/specifications_snapshot/_styles.sass */
+  .specifications-snapshot ul.visuals {
+    width: 40%;
+  }
+  /* line 225, ../../../components/specifications_snapshot/_styles.sass */
+  body.new-product-page .specifications-snapshot ul.visuals {
+    width: 43%;
+  }
+  /* line 23, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.ltr .rich-content-page .video .content-wrapper {
+    padding-left: 25%;
+  }
+  /* line 19, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/shared/_mixins.sass */
+  body.rtl .rich-content-page .video .content-wrapper {
+    padding-right: 25%;
+  }
+  /* line 80, ../../../components/video_list/_styles.sass */
+  .video-list ul {
+    margin-left: 25% !important;
+  }
+  /* line 83, ../../../components/video_list/_styles.sass */
+  .video-list ul div {
+    height: 79px;
+  }
+  /* line 86, ../../../components/video_list/_styles.sass */
+  .video-list ul img {
+    margin-top: -14px;
+  }
+  /* line 89, ../../../components/video_list/_styles.sass */
+  .video-list li {
+    padding-right: 2.5em;
+    width: 20%;
+  }
+}
+@media screen and (min-width: 1280px){
+  /* line 124, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component .viewport .cover .visuals {
+    height: 672px;
+  }
+  /* line 127, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component .viewport .cover .visuals img {
+    height: 672px;
+    margin-left: -840px;
+  }
+  /* line 134, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component.hero-area-story .viewport .cover .visuals {
+    height: 672px;
+  }
+  /* line 137, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component.hero-area-story .viewport .cover .visuals img {
+    height: 672px;
+    margin-left: -840px;
+  }
+  /* line 193, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component.overlay-content .viewport .cover .wrapper,
+  .full-bleed-component.overlay-content .viewport .cover .caption {
+    height: 672px;
+  }
+  /* line 180, ../../../components/aside_navigation/_styles.sass */
+  body.new-product-page .aside-navigation .wrapper {
+    width: 1152px;
+    margin: 0 auto;
+  }
+  /* line 348, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .wrapper {
+    width: 1152px;
+    margin: 0 auto;
+  }
+  /* line 537, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .cover.shout-out.light-text .caption-content {
+    padding: 0 25%;
+  }
+  /* line 214, ../../../components/catalog_accessories/_styles.sass */
+  body.new-product-page .catalog-accessories .wrapper {
+    width: 1152px;
+    margin: 0 auto;
+  }
+  /* line 217, ../../../components/catalog_accessories/_styles.sass */
+  body.new-product-page .catalog-accessories ul li {
+    width: 25%;
+  }
+  /* line 221, ../../../components/catalog_accessories/_styles.sass */
+  body.new-product-page .catalog-accessories ul.color-options li {
+    width: 16px;
+  }
+  /* line 229, ../../../components/specifications_snapshot/_styles.sass */
+  body.new-product-page .specifications-snapshot .wrapper {
+    width: 1152px;
+    margin: 0 auto;
+  }
+  /* line 232, ../../../components/specifications_snapshot/_styles.sass */
+  body.new-product-page .specifications-snapshot ul.visuals {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1680px){
+  /* line 144, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component .viewport .cover .visuals {
+    height: 768px;
+  }
+  /* line 147, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component .viewport .cover .visuals img {
+    height: 768px;
+    margin-left: -960px;
+  }
+  /* line 200, /var/lib/jenkins/jobs/responsive-static-content-branch/workspace/stylesheets/screen/layout/_full_bleed_component.sass */
+  .full-bleed-component.overlay-content .viewport .cover .wrapper,
+  .full-bleed-component.overlay-content .viewport .cover .caption {
+    height: 768px;
+  }
+  /* line 184, ../../../components/aside_navigation/_styles.sass */
+  body.new-product-page .aside-navigation .wrapper {
+    width: 1584px;
+    margin: 0 auto;
+  }
+  /* line 352, ../../../components/benefit_block/_styles.sass */
+  .benefit-block .wrapper {
+    width: 1584px;
+    margin: 0 auto;
+  }
+}

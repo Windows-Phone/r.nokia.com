@@ -1,0 +1,239 @@
+/* .nk-footer = whole footer
+ * #nk-pc-filters-container = product catalogue filter section
+ * .nk-top-header .nk-nps-container = the NPS widgets
+ * #nk-main_menu_component = the top nav
+ * #nk-subnav-sections .nk-right = the sub nav
+ * .nk-top-header img.nk-onscreen = white Nokia logo
+ * #nk-product-specs-open-all and #nk-product-specs-close-all = expand and close button on Product Spec page
+ * .nk-link-cta = hide all links buttons
+ * .nk-side_promo_arrow = CTA arrow button on support pages
+ * 
+ * 
+ * 
+ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, 
+dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, 
+label, legend, table, caption, tbody, tfoot, thead, tr, th, td, input, fieldset, form, option {
+	font-family:Arial, Helvetica !important;
+}
+
+body {
+	background: #FFF;
+	font-size: 12pt;
+}
+
+	
+.nk-footer,
+#nk-pc-filters-container,
+.nk-top-header .nk-nps-container,
+#nk-main_menu_component,
+#nk-subnav-sections .nk-right,
+.nk-top-header img.nk-onscreen,
+#nk-product-specs-open-all,
+#nk-product-specs-close-all,
+.nk-bottom-cta-container,
+.nk-link-cta,
+.nk-link-cta span,
+.nk-side_promo_arrow,
+.nk-small-blue-arrow-button,
+.nk-link-cta-container {
+	display:none !important;
+}
+
+#nk-page-header,
+#nk-subnav-sections {
+	float:none !important;
+}
+
+a:link, a:visited {
+	text-decoration: underline;
+}
+
+#nk-wrapper,
+.nk-js .nk-main,
+#nk-content-wrp {
+	float:none !important;
+}
+
+/* Nokia LOGO - use only for print */
+.nk-top-header img.nk-hide {
+	display:block;
+}
+
+/* Product Catalogue */
+div.nk-pc-carousel-grid {
+    float:none !important;
+	width: 800px;
+}
+
+ul.nk-pc-list li {
+	float: left;
+}
+
+.nk-js ul.nk-phone-item {
+    width: 335px;
+}
+
+ul.nk-pc-list li.nk-pc-list-item {
+	display:inline;
+}
+
+ul.nk-phone-item {
+    width: 400px;
+}
+
+ul.nk-phone-item li.nk-phone-details {
+	clear:both;
+	display:inline;
+	float:none;
+}
+
+li.nk-phone-details div.nk-pd-contents {
+	clear:both;
+	display:inline;
+}
+
+li.nk-phone-details img {
+	display:inline;
+    margin: 0;
+}
+
+#nk-pc-overlay-area .nk-phone-item {
+    display:none;
+}
+
+/* Product Specification */
+#nk-product-specs-accordion,
+.nk-product-specs-header-excluded,
+.nk-product-specs-header,
+.nk-specs-panel-static,
+#nk-content-wrp .nk-product-specs-content,
+#nk-content-wrp .nk-prod-compare-contents {
+	display:block !important;
+	float:none !important;
+}
+
+/* Product Accessories */
+#nk-acc-carousel-arrow-left,
+#nk-acc-carousel-arrow-right,
+.nk-acc-carousel-pagination-position,
+.nk-support-faqs-plus,
+.nk-acc-carousel-prod-description .nk-link-cta {
+	display:none;
+}
+
+.jcarousel-skin-acc .jcarousel-item {
+    height:auto;
+	padding-bottom:15px;
+}
+
+.jcarousel-skin-acc .jcarousel-container-horizontal,
+.jcarousel-skin-acc .jcarousel-clip-horizontal {
+	height:auto !important;
+	width: 900px;
+}
+
+#nk-product-acc-carousel ul#nk-acc {
+	float:none !important;
+	overflow:visible;
+	width:700px !important;
+}
+
+.nk-acc-carousel-container {
+    float:none;
+}
+
+/* Product Spec Support FAQ */
+.nk-support-faq-bottom-module .left-pane,
+.nk-supportFaqProductBg,
+.nk-support-faqs-tab h2 {
+	clear:both;
+	display:block;
+	float:none !important;
+}
+
+.nk-supportFaqProductBg {
+	border:none;
+	box-shadow: 0 0 0 #FFF;
+	border-radius: 0 0 0 0;
+	margin:0;
+}
+
+.nk-supportFaqProductBg div.nk-col-lcr {
+	margin:0;
+}
+
+/* Contact us */
+.nk-contact-pContentTop,
+.nk-contact-pContentBtm {
+	clear:both;
+}
+
+.nk-contact-pContentTop .nk-link-div div {
+    padding-bottom:10px;
+}
+
+.nk-contact-pContentCenter .nk-contact-office-country {
+    width: 620px !important;
+}
+
+#nk-content-wrp .nk-contact-pContentCenter .nk-left {
+	float:left !important;
+}
+
+
+/* Product overview */
+.nk-carousel-productsRelated-container {
+    padding-bottom: 60px;
+}
+
+.jcarousel-skin-productRelated .jcarousel-clip-horizontal {
+    height: auto !important;
+}
+
+.jcarousel-item,
+.jcarousel-item * {
+	height:auto !important;
+	position: static !important;
+}
+
+.nk-content-left .nk-fullwidth-carousel-prod-description,
+.nk-fullwidth-carousel-prod-description {
+    float:none !important;
+}
+
+/* About us - video */
+.nk-c0178-video a,
+a.nk-0179-link .nk-video-left span.nk-video-play {
+    display:none !important;
+}
+
+/* Search results */
+.nk-whiteBg .nk-left,
+.nk-t017-c {
+	float:none !important;
+}
+
+/* Support - Generic downloads */
+.nk-support-downloads-title,
+.nk-support-downloads-appinfo {
+    clear:both !important;
+	height:auto !important;
+	padding-bottom:5px;
+}
+
+.nk-download-button {
+	display:none;
+}
+
+/* RSS */
+.nk-rss-left,
+.nk-rss-right {
+	display:inline;
+    float: none;
+}
+
+/* D2080 */
+.nk-js #nk-hover-panel ul li.nk-selected-phone {
+    background: none;  
+}

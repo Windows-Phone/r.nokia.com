@@ -1,0 +1,112 @@
+/* Font Settings */
+@font-face {
+    font-family: 'NokiaPureText';
+    src: url('/error/fonts/nokiapuretext-webfont.eot');
+    src: url('/error/fonts/nokiapuretext-webfont.eot?#iefix') format('eot'),
+         url('/error/fonts/nokiapuretext-webfont.woff') format('woff'),
+         url('/error/fonts/nokiapuretext-webfont.ttf') format('truetype'),
+         url('/error/fonts/nokiapuretext-webfont.svg#webfontQL5znrNH') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NokiaPureHeadlineRegular';
+    src: url('/error/fonts/nokiapuretext-webfont.eot');
+    src: url('/error/fonts/nokiapuretext-webfont.eot?#iefix') format('eot'),
+         url('/error/fonts/nokiapuretext-webfont.woff') format('woff'),
+         url('/error/fonts/nokiapuretext-webfont.ttf') format('truetype'),
+         url('/error/fonts/nokiapuretext-webfont.svg#webfontQL5znrNH') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Global elements */
+html {
+    height:100%;
+}
+
+html>body {
+	min-height:100%; 
+	height:auto;
+}
+
+body {
+    background:#2b6b9b url(/error/images/nk-bodyBg.jpg) top center repeat-y;
+    color: #124191; 
+    font-family: NokiaPureText;
+    font-size: 75%;
+    font-weight: normal;
+	margin:0;
+	pading:0;
+}
+
+br {
+	line-height:0.665em;
+}
+
+/* LINKS elements */
+a {
+    color:#124191;
+}
+
+/* Headings */
+h1 {
+    font: 1.8em/1em NokiaPureHeadlineRegular;
+	margin:0;
+	padding:0;
+}
+
+/* DIV wrappers */
+#nk-wrapper {
+    background:url(/error/images/nk-wrapperBg.png) top center repeat-x;
+	height:497px;
+	margin:0;
+	padding:0 0 35px 0;
+}
+
+#nk-main {
+    background:url(/error/images/nk-mainBg.png) top center no-repeat;
+    margin:0px auto;
+    padding:0px;
+    width:960px;
+}
+
+.nk-logo-container {
+    margin:0px auto;
+	padding:40px 0px;
+	text-align:center;
+	width:960px;
+}
+
+.nk-whiteBg {
+    background:#FFF;
+    padding:26px 30px 30px;
+	width: 900px;
+
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+    box-shadow: 1px 1px 4px #7f8991;
+    -moz-box-shadow: 1px 1px 4px #7f8991;
+	-webkit-box-shadow: 1px 1px 4px #7f8991;
+}
+
+/* Nokia Grey Colour with correct line height, should be used always for small text */
+.nk-block-gray-text {
+    border-top: 1px solid #d6d8dd;
+	border-bottom: 1px solid #d6d8dd;
+    color: #333333;
+	display:block;
+    font-size: 0.95em;
+    line-height: 1.5em;
+	margin:15px 0px 0px;
+}
+
+.nk-copyright {
+	color:#FFF;
+	margin-top:15px;
+	padding-right:30px;
+	text-align:right;
+}

@@ -1,0 +1,15 @@
+/* line 1, /Users/jarkkomalviniemi/Documents/projects/nokia/responsive-prototype/components/campaigns/ncomredirect/all_ie */
+.redirect-block {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: 944px;
+  margin: 0 auto; }
+  /* line 7, /Users/jarkkomalviniemi/Documents/projects/nokia/responsive-prototype/components/campaigns/ncomredirect/all_ie */
+  .redirect-block .content {
+    width: 47%;
+    margin: 1.5%;
+    float: left; }
+  /* line 12, /Users/jarkkomalviniemi/Documents/projects/nokia/responsive-prototype/components/campaigns/ncomredirect/all_ie */
+  .redirect-block .header {
+    height: 8em; }

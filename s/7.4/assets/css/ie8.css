@@ -1,0 +1,256 @@
+.nk-all-border,
+.nk-t-border,
+.nk-b-border,
+.nk-r-border,
+.nk-l-border,
+.nk-bl-border,
+.nk-br-border,
+.nk-tl-border,
+.nk-tr-border,
+.nk-whiteBg,
+.nk-corp-whiteBg,
+.nk-box-bg,
+.nk-specs-t-border,
+.nk-repair-bottom,
+.nk-search_rounding,
+.nk-home_rounding,
+.nk-supportFaqBg,
+.nk-supportFaqProductBg,
+.nk-support-cu-bg,
+.nk-support-cu-bg2,
+.nk-supportLandingBg,
+.nk-main_menu_home,
+.nk_support_bottom_module_roundings,
+.nk-support-faq-bottom_module-roundings,
+.nk-support-generic-downloads-wrapper {
+/* disable IE8 rounding
+	behavior: url(/s/7.4/assets/htc/PIE.htc);
+	position:relative;
+*/
+}
+
+.nk-snav-corners,
+.nk-snav-br-border,
+.nk-snav-bl-border {
+/* disable IE8 rounding
+	behavior: url(/s/7.4/assets/htc/PIE.htc); 
+*/
+}
+
+div.nk-corp-leftnav {
+	position:absolute;
+}	
+
+.nk-product-specs-header, 
+.nk-product-specs-header-excluded {
+/* disable IE8 rounding
+	-pie-background: linear-gradient(top, #FDFDFD 35%, #F0F0F0 100%);
+*/
+}
+
+.nk-product-specs-header:hover {
+/* disable IE8 rounding
+	-pie-background: linear-gradient(top, #f7f7f7 35%, #d7d7d7 100%);	
+*/
+}
+
+#nk-header_search_box_component .nk-search_input_roundings,
+#nk-header_search_box_component .nk-search_button_roundings {
+/*
+	behavior: url(/s/7.4/assets/htc/PIE.htc);
+	position:relative;
+*/
+}
+
+#nk-header_search_box_component .nk-header_search_input_gradient,
+#nk-header_search_box_component .nk-header_search_button_gradient {	
+/* disable IE8 rounding
+	-pie-background: linear-gradient(top, #5787bA 35%, #3A5E97 100%);
+*/	
+}
+
+#nk-header_search_box_component #nk-search-button-icon {
+	top:6px;
+	/* disable IE8 rounding
+ 	right: 16px;	
+	*/
+	z-index:100;
+}
+
+#nk-header_search_box_component .nk-search-button-input {
+
+	z-index:101;
+}
+
+/*
+.jcarousel-skin-productRelated .jcarousel-container { 
+	-pie-background: linear-gradient(bottom, #cfdbef 35%, #ffffff 68%);
+	behavior: url(/s/7.4/assets/htc/PIE.htc);
+	position:relative;	
+}*/
+
+/*
+#nrelatedProducts-container .jcarousel-list-horizontal {
+	-pie-background: linear-gradient(bottom, #cfdbef 35%, #ffffff 68%);	
+}
+*/
+
+.nk-carousel-products-panel {
+	background-color:transparent;
+	/* disable IE8 rounding
+	behavior: url(/s/7.4/assets/htc/PIE.htc);
+	*/
+	position:relative;
+}
+
+/* accessories carousel fix */
+.jcarousel-skin-acc .jcarousel-clip-horizontal {
+	left:0px;
+}
+
+/* support faq accordian border fix */
+.nk-faq-feedback-controller .nk-faq-feedback-controller-area .nk-all-border {
+    border-radius: 0;
+} 
+
+/* support search results/contact us dropdown fix */
+.nk-generic-right-links-gradient.nk-br-border {
+	position: inherit;
+}
+
+/* opacity fix for prod landing carousel */
+#nk-product-land-panel-bg img.nk-active-img { 
+/*
+ * -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+ */
+    display:none;
+}
+
+#nk-product-land-panel-bg .nk-product-land-panel-bodytxt {
+    /*
+     * -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+     */
+    display:none;
+}
+
+/* the max width of the navigation item needs to be bigger in ie7/8 */
+.nk-snav-container li a {
+    max-width: 99px;
+}
+
+#nk-img-area {
+    background: url(/s/7.4/assets/images/nokia/blank.gif) repeat-x repeat-y top left;
+}
+
+/* c045var2 - product catalogue filter panel */
+div.nk-prodcatalogue-filters ul {
+	background-position:0 0;
+}
+
+/* c0116 fix for very long text (doesn't seem to work?) */
+/*
+.nk-generic-links,
+.nk-generic-links-scroll-container {
+	max-width: 210px;
+}
+*/
+
+/* c0116 fix for very long text */
+.nk-generic-links-scroll-container span {
+	width: 190px;
+}
+
+/* c0080var3 zoom out bug */
+.ltr .nk-support_search_input_bg {
+   /* padding-left: 8px; */
+}
+
+/* fade fix for support carousel */
+.nk-support-carousel-fade-left {
+    background: url(/s/7.4/ui_lib/m005/nk-carousel-left-fade-ie.png?v=7.4.2) no-repeat -0px 0px;
+}
+
+.nk-support-carousel-fade-right {
+    background: url(/s/7.4/ui_lib/m005/nk-carousel-right-fade-ie.png?v=7.4.2) no-repeat -0px 0px;
+}
+
+.nk-support-carousel-fade-left-wide {
+    background: url(/s/7.4/ui_lib/m005/nk-carousel-left-fade-ie-wide.png?v=7.4.2) no-repeat -0px 0px;
+}
+
+.nk-support-carousel-fade-right-wide {
+    background: url(/s/7.4/ui_lib/m005/nk-carousel-right-fade-ie-wide.png?v=7.4.2) no-repeat -0px 0px;
+}
+
+.nk-carecontent-content .li.step p {
+    margin-top: -15px;
+}
+
+/* carousel tabs borders for IE8 */
+.nk-product-selector-tab-switch-container .nk-tab {
+    border: 1px solid lightgray;
+}
+
+/* IE8 transparent PNG fade fix for overview bebeautyshot */
+.product-hero-area .wrapper .visuals .slides div {
+    background: #efefef;
+}
+
+/* pricepoint fix (no mediaquery support in ie8) */
+body.ltr .pricepoint ul.operator-list {
+  right: 0;
+  top: 22px;
+  border: none !important;
+}
+
+body.rtl .pricepoint ul.operator-list {
+  left: 0;
+  top: 22px;
+  border: none !important;
+}
+
+.price-information ul li {
+  display: inline-block !important;
+  zoom: 1;
+}
+
+.price-information .spacer {
+  display: none	!important;
+}
+
+.pricepoint .disclaimer p {
+    color: #8F8F8F;
+    font-size: 0.875em;
+    padding: 1em 0.75em;
+}
+
+body.ltr .pricepoint .disclaimer {
+  float: right;
+}
+
+body.rtl .pricepoint .disclaimer {
+  float: left;
+}
+
+body.ltr .pricepoint .buy {
+  float: left;
+}
+
+.pricepoint .wrapper {
+  background: #fff;
+}
+
+body.rtl .pricepoint .buy {
+  float: right;
+}
+
+.nk-pc-content-right .nk-top-ellipse-gradient {
+	filter: none !important;
+}
+
+.product-hero-area .wrapper .headers {
+	height: auto !important;
+}
+.product-hero-area .wrapper .headers .relative {
+	height: 70px !important;
+}
